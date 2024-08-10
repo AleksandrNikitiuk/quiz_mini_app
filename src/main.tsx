@@ -4,11 +4,14 @@ import App from './App.tsx'
 import './index.css'
 
 import WebApp from '@twa-dev/sdk'
+import { MainContextProvider } from './Context/MainContext'
 
 WebApp.ready()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <MainContextProvider>
+      <App />
+    </MainContextProvider>
   </StrictMode>,
 )
