@@ -13,7 +13,7 @@
 @media (max-width: 768px) {
   .answer-section-wrapper {
     padding: 20px 30px;
-    height: 30rem;
+    height: 15rem;
   }
 }
 
@@ -85,7 +85,7 @@
 
 @media (max-width: 768px) {
   .next-question-button {
-    height: 100px;
+    height: fit-content;
     padding: 10px 20px;
   }
 }
