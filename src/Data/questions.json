@@ -30,12 +30,12 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "My%20bestie%20%20_____%20%20join%20us%20this%20Saturday,%20her%20babies%20are%20sick.",
-    "correct_answer": "Isn’t%20going%20to",
+    "correct_answer": "isn’t%20going%20to",
     "answers": [
-      "Is%20going%20to",
-      "Isn’t%20going%20to",
-      "Are%20going%20to",
-      "Am%20going%20to"
+      "is%20going%20to",
+      "isn’t%20going%20to",
+      "are%20going%20to",
+      "am%20going%20to"
     ]
   },
   {
@@ -43,12 +43,12 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "We%20____%20drive%20there,%20our%20relatives%20need%20us!%20Not%20a%20word%20any%20more!%20Go%20get%20your%20stuff!",
-    "correct_answer": "Are%20going%20to",
+    "correct_answer": "are%20going%20to",
     "answers": [
-      "Is%20going%20to",
-      "Isn’t%20going%20to",
-      "Are%20going%20to",
-      "Aren’t%20going%20to"
+      "is%20going%20to",
+      "isn’t%20going%20to",
+      "are%20going%20to",
+      "aren’t%20going%20to"
     ]
   },
   {
@@ -56,12 +56,12 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "Daniel%20and%20Mark%20_______%20%20%20be%20a%20little%20bit%20later.%20Let’s%20wait%20for%20them.",
-    "correct_answer": "Are%20going%20to",
+    "correct_answer": "are%20going%20to",
     "answers": [
-      "Is%20going%20to",
-      "Isn’t%20going%20to",
-      "Are%20going%20to",
-      "Aren’t%20going%20to"
+      "is%20going%20to",
+      "isn’t%20going%20to",
+      "are%20going%20to",
+      "aren’t%20going%20to"
     ]
   },
   {
@@ -69,12 +69,12 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "We%20_____%20%20move%20the%20house%20this%20week.%20So%20I%20have%20no%20free%20time,%20sorry.",
-    "correct_answer": "Are%20going%20to",
+    "correct_answer": "are%20going%20to",
     "answers": [
-      "Is%20going%20to",
-      "Isn’t%20going%20to",
-      "Are%20going%20to",
-      "Aren’t%20going%20to"
+      "is%20going%20to",
+      "isn’t%20going%20to",
+      "are%20going%20to",
+      "aren’t%20going%20to"
     ]
   },
   {
@@ -82,12 +82,12 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "_______%20sign%20the%20papers?%20I’m%20still%20waiting.",
-    "correct_answer": "Are%20you%20going%20to",
+    "correct_answer": "are%20you%20going%20to",
     "answers": [
-      "Is%20you%20going%20to",
-      "Are%20you%20going%20to",
-      "Am%20she%20going%20to",
-      "Who%20going%20to"
+      "is%20you%20going%20to",
+      "are%20you%20going%20to",
+      "am%20she%20going%20to",
+      "who%20going%20to"
     ]
   },
   {
@@ -95,12 +95,12 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "Oh,%20it%20__________%20snow%20now…%20I%20hate%20snowy%20and%20cloudy%20weather!",
-    "correct_answer": "Is%20going%20to",
+    "correct_answer": "is%20going%20to",
     "answers": [
-      "Am%20going%20to",
+      "am%20going%20to",
       "is%20not%20going%20to",
-      "Is%20going%20to",
-      "Are%20going%20to"
+      "is%20going%20to",
+      "are%20going%20to"
     ]
   },
   {
@@ -108,12 +108,12 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "The%20player%20______%20leave%20the%20team%20this%20April.",
-    "correct_answer": "Is%20going%20to",
+    "correct_answer": "is%20going%20to",
     "answers": [
-      "Are%20going%20to",
-      "Is%20going%20to",
-      "Am%20going%20to",
-      "Is%20going"
+      "are%20going%20to",
+      "is%20going%20to",
+      "am%20going%20to",
+      "is%20going"
     ]
   },
   {
@@ -123,10 +123,10 @@
     "question": "The%20sales%20manager%20______%20offer%20the%20best%20options%20for%20you!",
     "correct_answer": "is%20going%20to",
     "answers": [
-      "Am%20going%20to",
+      "am%20going%20to",
       "is%20going%20to",
-      "Is%20going",
-      "Are%20going%20to"
+      "is%20going",
+      "are%20going%20to"
     ]
   }
 ]
