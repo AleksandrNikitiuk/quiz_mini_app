@@ -25,10 +25,8 @@ export default function AnswerCompound() {
   const [showFinishMessage, setShowFinishMessage] = useState(false)
   const [wrongClickedAnswer, setWrongClickedAnswer] = useState('')
 
-  const answersArray = [
-    QuestionsData[currentQuestion - 1].correct_answer,
-  ].concat(QuestionsData[currentQuestion - 1].incorrect_answers)
-  const correctAnswer = answersArray[0]
+  const answersArray = QuestionsData[currentQuestion - 1].answers
+  const correctAnswer = QuestionsData[currentQuestion - 1].correct_answer
 
   function checkAnswer(answer: string) {
     if (answer === correctAnswer) {
@@ -94,7 +92,7 @@ export default function AnswerCompound() {
             </AnswerButton>
           ))}
         </AnswerButtonsWrapper>
-        <AnswerResult>{showAnswerResult}</AnswerResult>
+        {/* <AnswerResult>{showAnswerResult}</AnswerResult> */}
         <NextQuestionButtonWrapper>
           {showAnswerResult === '' ? null : (
             <NextQuestionButton onClick={doButtonClickActions}>

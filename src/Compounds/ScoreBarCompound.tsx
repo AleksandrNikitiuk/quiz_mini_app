@@ -38,7 +38,7 @@ export default function ScoreBarCompound() {
         </ScoreBarData>
         <ScoreBarWrapper>
           <LowestScoreBar style={{ width: `${Math.round(lowestScore)}%` }} />
-          <ScoreBar style={{ width: `${Math.round(score)}%` }} />
+          {/* <ScoreBar style={{ width: `${Math.round(score)}%` }} /> */}
           <MaximumScoreBar style={{ width: `${Math.round(maximumScore)}%` }} />
         </ScoreBarWrapper>
       </ScoreSectionWrapper>

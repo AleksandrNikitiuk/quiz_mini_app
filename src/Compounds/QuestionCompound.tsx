@@ -10,7 +10,7 @@ export default function QuestionCompound() {
       <QuestionSectionWrapper>
         <QuestionNumber />
         <QuestionCategory />
-        <QuestionDifficulty />
+        <QuestionDifficulty />  
         <QuestionText />
       </QuestionSectionWrapper>
     </>

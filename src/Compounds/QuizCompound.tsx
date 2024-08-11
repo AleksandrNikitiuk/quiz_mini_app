@@ -11,6 +11,7 @@ export default function QuizCompound() {
       <QuestionCompound />
       <AnswerCompound />
       <ScoreBarCompound />
+      
     </>
   )
 }
