@@ -9,7 +9,10 @@ export default function FinishMessage() {
 
   return (
     <div className='finish-message'>
-      <p>Your result {correctAnswersNumber} from {totalQuestions}. {decodeURIComponent(MessagesData[correctAnswersNumber === 0 ? 1 : correctAnswersNumber - 1].message)}</p>
+      Your result is {correctAnswersNumber} out of {totalQuestions}.
+      <br />
+      {decodeURIComponent(MessagesData[correctAnswersNumber === 0 ? 1 : correctAnswersNumber - 1].message)}
+      <br />
     </div>
   )
 }
