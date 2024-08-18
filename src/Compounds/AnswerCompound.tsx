@@ -8,6 +8,7 @@ import NextQuestionButtonWrapper from '../Components/Answer/NextQuestionButtonWr
 import FinishMessage from '../Components/Answer/FinishMessage'
 import FinishMessageOverlay from '../Components/Answer/FinishMessageOverlay'
 import { MainContext } from '../Context/MainContext'
+import axios from 'axios'
 
 export default function AnswerCompound() {
   const {
@@ -19,6 +20,7 @@ export default function AnswerCompound() {
     setCorrectAnswersNumber,
     wrongAnswersNumber,
     setWrongAnswersNumber,
+    setFinishMessage,
   } = useContext(MainContext)
   const [finalResult, setFinalResult] = useState('')
   const [showFinishMessage, setShowFinishMessage] = useState(false)
@@ -58,6 +60,12 @@ export default function AnswerCompound() {
       if (finalResult === 'wrong') {
         setWrongAnswersNumber!(wrongAnswersNumber + 1)
       }
+      async function fetch_data() {
+        const base_url = "http://127.0.0.1:5000/finish_message?correct_answers_number="
+        const response = await axios.get(`${base_url}${correctAnswersNumber}`)
+        setFinishMessage!(response.data.message)
+      }
+      fetch_data()
       setFinalResult('')
       return setShowFinishMessage(true)
     }
