@@ -1,0 +1,27 @@
+[
+    {
+      "category": "To%20be%20going%20to",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": [
+        "I",
+        "answer",
+        "go",
+        "to",
+        "New",
+        "York",
+        "this",
+        "autumn."
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "am%20going%20to",
+      "answers": [
+        "to%20be%20going%20to",
+        "am%20going%20to",
+        "isn’t%20going%20to",
+        "are%20going%20to"
+      ]
+    }
+  ]
+  

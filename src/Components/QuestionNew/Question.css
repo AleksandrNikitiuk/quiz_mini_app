@@ -1,0 +1,40 @@
+.question-section-wrapper {
+  display: flex;
+  height: 25vh;
+  padding: 2rem 1rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+}
+
+.question-text {
+  display: inline-block;
+  margin: 0 auto;
+  justify-content: left;
+
+  /* question */
+  font-family: "SF Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 114.286% */
+  letter-spacing: -0.03125rem;
+}
+
+.text {
+  display: inline-block;
+  color: #000;
+  margin-right: 10px;
+}
+
+.spacer {
+  display: inline-block;
+  width: auto;
+  height: 2rem;
+  border-radius: 0.75rem;
+  background-color: #F5F5F5;
+  color: #F5F5F5;
+  margin-right: 10px;
+}
