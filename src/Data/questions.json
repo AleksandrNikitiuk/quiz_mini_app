@@ -4,10 +4,10 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "I%20________%20go%20to%20New%20York%20this%20autumn.",
-    "correct_answer": "am%20going%20to",
+    "correct_answer": "am going to",
     "answers": [
       "to%20be%20going%20to",
-      "am%20going%20to",
+      "am going to",
       "isn’t%20going%20to",
       "are%20going%20to"
     ]

@@ -15,10 +15,10 @@
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am%20going%20to",
+      "correct_answer": "am going to",
       "answers": [
         "to%20be%20going%20to",
-        "am%20going%20to",
+        "am going to",
         "isn’t%20going%20to",
         "are%20going%20to"
       ]

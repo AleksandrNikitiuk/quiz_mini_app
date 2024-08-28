@@ -7,7 +7,7 @@ import { MainContext } from '../Context/MainContext'
 import QuestionWords from '../Components/QuestionNew/QuestionWords'
 
 export default function QuestionNewCompound() {
-    const { currentQuestion, showAnswerResult } = useContext(MainContext)
+    const { currentQuestion, answerResult } = useContext(MainContext)
     const questionWords = QuestionsData[currentQuestion - 1].question
 
     return (
@@ -19,10 +19,10 @@ export default function QuestionNewCompound() {
                 <QuestionWords
                 key={index}
                 className={
-                    word  === 'answer' ? 'spacer' : 'text'
+                    word  === 'answer' ? answerResult === ''? 'spacer': 'answer-in-question': 'text'
                 }
                 >
-                {word  === 'answer'?  showAnswerResult ===''? word : showAnswerResult : word}
+                {word  === 'answer'?  answerResult ===''? word : answerResult : word}
                 </QuestionWords>
             ))}
         </QuestionText>

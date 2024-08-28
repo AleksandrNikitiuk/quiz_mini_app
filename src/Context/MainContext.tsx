@@ -15,6 +15,8 @@ interface ContextInterface {
   setWrongAnswersNumber?: (arg0: number) => void
   finishMessage: string
   setFinishMessage?: (arg0: string) => void
+  answerResult: string
+  setAnswerResult?: (arg0: string) => void
 }
 
 export const MainContext = createContext<ContextInterface>({
@@ -23,6 +25,7 @@ export const MainContext = createContext<ContextInterface>({
   correctAnswersNumber: 0,
   wrongAnswersNumber: 0,
   finishMessage: '',
+  answerResult: '',
 })
 
 export const MainContextProvider = ({ children }: PropsType) => {
@@ -31,6 +34,7 @@ export const MainContextProvider = ({ children }: PropsType) => {
   const [correctAnswersNumber, setCorrectAnswersNumber] = useState(0)
   const [wrongAnswersNumber, setWrongAnswersNumber] = useState(0)
   const [finishMessage, setFinishMessage] = useState('')
+  const [answerResult, setAnswerResult] = useState('')
 
   return (
     <MainContext.Provider
@@ -45,6 +49,8 @@ export const MainContextProvider = ({ children }: PropsType) => {
         setWrongAnswersNumber,
         finishMessage,
         setFinishMessage,
+        answerResult,
+        setAnswerResult,
       }}
     >
       {children}

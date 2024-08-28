@@ -1,12 +1,12 @@
 import { useContext, useState } from 'react'
-import QuestionsData from '../Data/questions.json'
-import AnswerButton from '../Components/Answer/AnswerButton'
-import AnswerButtonsWrapper from '../Components/Answer/AnswerButtonsWrapper'
-import AnswerSectionWrapper from '../Components/Answer/AnswerSectionWrapper'
-import NextQuestionButton from '../Components/Answer/NextQuestionButton'
-import NextQuestionButtonWrapper from '../Components/Answer/NextQuestionButtonWrapper'
-import FinishMessage from '../Components/Answer/FinishMessage'
-import FinishMessageOverlay from '../Components/Answer/FinishMessageOverlay'
+import QuestionsData from '../Data/question_new.json'
+import AnswerButton from '../Components/AnswerNew/AnswerButton'
+import AnswerButtonsWrapper from '../Components/AnswerNew/AnswerButtonsWrapper'
+import AnswerSectionWrapper from '../Components/AnswerNew/AnswerSectionWrapper'
+import NextQuestionButton from '../Components/AnswerNew/NextQuestionButton'
+import NextQuestionButtonWrapper from '../Components/AnswerNew/NextQuestionButtonWrapper'
+import FinishMessage from '../Components/AnswerNew/FinishMessage'
+import FinishMessageOverlay from '../Components/AnswerNew/FinishMessageOverlay'
 import { MainContext } from '../Context/MainContext'
 import axios from 'axios'
 
@@ -14,13 +14,13 @@ export default function AnswerCompound() {
   const {
     currentQuestion,
     setCurrentQuestion,
-    showAnswerResult,
     setShowAnswerResult,
     correctAnswersNumber,
     setCorrectAnswersNumber,
     wrongAnswersNumber,
     setWrongAnswersNumber,
     setFinishMessage,
+    answerResult,
     setAnswerResult,
   } = useContext(MainContext)
   const [finalResult, setFinalResult] = useState('')
@@ -93,7 +93,7 @@ export default function AnswerCompound() {
           {answersArray.map((answer: string, index: number) => (
             <AnswerButton
               key={index}
-              disabled={showAnswerResult !== ''}
+              disabled={answerResult !== ''}
               onClick={() => checkAnswer(answer)}
               className={
                 finalResult === '' ? 'answer-button' : changeButtonColor(answer)
@@ -105,11 +105,15 @@ export default function AnswerCompound() {
         </AnswerButtonsWrapper>
         {/* <AnswerResult>{showAnswerResult}</AnswerResult> */}
         <NextQuestionButtonWrapper>
-          {showAnswerResult === '' ? null : (
-            <NextQuestionButton onClick={doButtonClickActions}>
-              Next Question
+            <NextQuestionButton
+                disabled={answerResult === ''}
+                onClick={doButtonClickActions}
+                className={
+                    answerResult === '' ? 'inactive-next-question-button' : 'next-question-button'
+                    }
+            >
+                Next
             </NextQuestionButton>
-          )}
         </NextQuestionButtonWrapper>
       </AnswerSectionWrapper>
       {showFinishMessage ? (
