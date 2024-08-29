@@ -1,11 +1,11 @@
 import './Title.css'
-import group from '/Group.svg'
+import star from '/star.svg'
 
 
 export default function Illustration() {
   return (
     <div className='illustration'>
-      <img src={group} alt="Star" />
+      <img src={star} alt="Star" />
     </div>
   )
 }

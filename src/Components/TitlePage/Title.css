@@ -50,3 +50,21 @@
     line-height: normal;
     letter-spacing: -0.0625rem;
 }
+
+.hand-drawing {
+    display: flex;
+    width: 24.375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.hand-drawing-illustration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18.75rem;
+    height: 1.6875rem;
+}

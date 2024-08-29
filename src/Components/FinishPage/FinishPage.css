@@ -10,12 +10,11 @@
     margin: 10.3rem 1rem 13.2rem 1rem;
 }
 
-.illustration {
+.finish-illustration {
     display: flex;
-    width: 2.5625rem;
-    height: 2.75rem;
-    padding: 0.00025rem 10.02106rem 0.04394rem 0.03688rem;
-    flex-direction: column;
+    width: 14.4375rem;
+    height: 7.4375rem;
+    padding: 0rem 0.03106rem 0rem 9.03113rem;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;

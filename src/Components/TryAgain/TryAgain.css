@@ -58,3 +58,15 @@
   line-height: normal;
   letter-spacing: -0.01381rem;
 }
+
+.message {
+  color: var(--bttn-answer-typo, #000);
+  text-align: center;
+
+  /* button previev */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 510;
+  line-height: normal;
+  letter-spacing: -0.0375rem;
+}

@@ -1,19 +1,16 @@
-import { useContext } from 'react'
-import QuestionsData from '../Data/question_new.json'
+import FinishMessages from '../Data/newFinishMessages.json'
 import TryAgainSectionWrapper from '../Components/TryAgain/TryAgainSectionWrapper'
 import TextAndButtonWrapper from '../Components/TryAgain/TextAndButtonWrapper'
 import ButtonPreview from '../Components/TryAgain/ButtonPreview'
+import TryAgainWords from '../Components/TryAgain/TryAgainWords'
 import NextQuestionButtonWrapper from '../Components/TryAgain/TryAgainButtonWrapper'
 import NextQuestionButton from '../Components/TryAgain/TryAgainButton'
 
-import { MainContext } from '../Context/MainContext'
-
 export default function TryAgainCompound() {
-  const { setHelloPage } = useContext(MainContext)
-  const difficulty = QuestionsData[0].difficulty
+  const finishWords = FinishMessages[0].message
 
   function doButtonClickActions() {
-    setHelloPage!(false)
+    window.location.href = 'https://localhost:5173/';
   }
 
   return (
@@ -23,8 +20,16 @@ export default function TryAgainCompound() {
         <TextAndButtonWrapper>
             
             <ButtonPreview>
-              level <br />
-              {difficulty}
+              {finishWords.map((word: string, index: number) => (
+                  <TryAgainWords
+                  key={index}
+                  className={
+                    'message'
+                }
+                >
+                {word}
+                  </TryAgainWords>
+              ))}
             </ButtonPreview>
             
             <NextQuestionButtonWrapper>

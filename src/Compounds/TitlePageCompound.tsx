@@ -3,6 +3,8 @@ import TitlePageSectionWrapper from '../Components/TitlePage/TitlePageSectionWra
 import Illustration from '../Components/TitlePage/Illustration'
 import TitleText from '../Components/TitlePage/TitleText'
 import TitleWords from '../Components/TitlePage/TitleWords'
+import HandDrawing from '../Components/TitlePage/HandDrawing'
+import HandDrawingIllustration from '../Components/TitlePage/HandDrawingIllustration.tsx'
 import QuestionsData from '../Data/question_new.json'
 import { MainContext } from '../Context/MainContext'
 
@@ -28,7 +30,11 @@ export default function QuestionNewCompound() {
                 {word}
                 </TitleWords>
             ))}
-        </TitleText>       
+        </TitleText>
+
+        <HandDrawing>
+          <HandDrawingIllustration />
+        </HandDrawing>     
 
       </TitlePageSectionWrapper>
     </>
