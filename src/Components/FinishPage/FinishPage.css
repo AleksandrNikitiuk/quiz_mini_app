@@ -1,0 +1,52 @@
+.finish-page-section-wrapper {
+    display: flex;
+    height: 25vh;
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    
+    margin: 10.3rem 1rem 13.2rem 1rem;
+}
+
+.illustration {
+    display: flex;
+    width: 2.5625rem;
+    height: 2.75rem;
+    padding: 0.00025rem 10.02106rem 0.04394rem 0.03688rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.finish-text {
+    display: inline-block;
+    margin: 0 auto;
+    width: 22.375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #000;
+    text-align: center;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0625rem;
+}
+
+.word {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    margin-right: 10px;
+
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0625rem;
+}

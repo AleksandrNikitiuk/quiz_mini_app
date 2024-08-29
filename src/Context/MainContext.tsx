@@ -17,6 +17,10 @@ interface ContextInterface {
   setFinishMessage?: (arg0: string) => void
   answerResult: string
   setAnswerResult?: (arg0: string) => void
+  helloPage: boolean
+  setHelloPage?: (arg0: boolean) => void
+  finishPage: boolean
+  setFinishPage?: (arg0: boolean) => void
 }
 
 export const MainContext = createContext<ContextInterface>({
@@ -26,6 +30,8 @@ export const MainContext = createContext<ContextInterface>({
   wrongAnswersNumber: 0,
   finishMessage: '',
   answerResult: '',
+  finishPage: false,
+  helloPage: true,
 })
 
 export const MainContextProvider = ({ children }: PropsType) => {
@@ -35,6 +41,8 @@ export const MainContextProvider = ({ children }: PropsType) => {
   const [wrongAnswersNumber, setWrongAnswersNumber] = useState(0)
   const [finishMessage, setFinishMessage] = useState('')
   const [answerResult, setAnswerResult] = useState('')
+  const [helloPage, setHelloPage] = useState(true)
+  const [finishPage, setFinishPage] = useState(false)
 
   return (
     <MainContext.Provider
@@ -51,6 +59,10 @@ export const MainContextProvider = ({ children }: PropsType) => {
         setFinishMessage,
         answerResult,
         setAnswerResult,
+        helloPage,
+        setHelloPage,
+        finishPage,
+        setFinishPage,
       }}
     >
       {children}

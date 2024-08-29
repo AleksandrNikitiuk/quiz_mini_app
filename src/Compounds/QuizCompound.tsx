@@ -1,28 +1,37 @@
-import { React, useContext } from 'react'
-import ProgressBar from '../Components/ProgressBar/ProgressBar'
-import AnswerCompound from './AnswerCompound'
+import { useContext } from 'react'
+import TitlePageCompound from './TitlePageCompound'
+import NavigationCompound from './NavigationCompound'
 import AnswerNewCompound from './AnswerNewCompound'
 import ProgressBarNewCompound from './ProgressBarNewCompound'
-import QuestionCompound from './QuestionCompound'
 import QuestionNewCompound from './QuestionNewCompound'
-import ScoreBarCompound from './ScoreBarCompound'
+import FinishPageCompound from './FinishPageCompound'
+import TryAgainCompound from './TryAgainCompound'
 import { MainContext } from '../Context/MainContext'
 
 export default function QuizCompound() {
     
-  const showAnswerResult = useContext(MainContext)
+  const { helloPage, finishPage } = useContext(MainContext)
   
   return (
     <>
-      {!showAnswerResult? (
-        null
-        ): 
+      {helloPage === true? (
         <>
-          <ProgressBarNewCompound />
-          <QuestionNewCompound />
-          <AnswerNewCompound />
-        </>}
-      
+          <TitlePageCompound />
+          <NavigationCompound />
+        </>
+        ):
+        finishPage === false? (
+          <>
+            <ProgressBarNewCompound />
+            <QuestionNewCompound />
+            <AnswerNewCompound />
+          </>
+        ):
+          <>
+            <FinishPageCompound />
+            <TryAgainCompound />
+          </>
+      }
     </>
   )
 }

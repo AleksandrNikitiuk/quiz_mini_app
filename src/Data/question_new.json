@@ -1,6 +1,6 @@
 [
     {
-      "category": "To%20be%20going%20to",
+      "category": ["To","be","going","to"],
       "type": "multiple",
       "difficulty": "medium",
       "question": [

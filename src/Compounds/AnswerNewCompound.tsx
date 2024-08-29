@@ -22,6 +22,7 @@ export default function AnswerCompound() {
     setFinishMessage,
     answerResult,
     setAnswerResult,
+    setFinishPage,
   } = useContext(MainContext)
   const [finalResult, setFinalResult] = useState('')
   const [showFinishMessage, setShowFinishMessage] = useState(false)
@@ -70,6 +71,7 @@ export default function AnswerCompound() {
       }
       fetch_data()
       setFinalResult('')
+      setFinishPage!(true)
       return setShowFinishMessage(true)
     }
 
