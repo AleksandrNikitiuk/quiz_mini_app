@@ -1,20 +1,16 @@
 .finish-page-section-wrapper {
     display: flex;
-    height: 25vh;
-    padding: 2rem 1rem;
+    height: 32.875rem;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
-    
-    margin: 10.3rem 1rem 13.2rem 1rem;
 }
 
 .finish-illustration {
     display: flex;
     width: 14.4375rem;
     height: 7.4375rem;
-    padding: 0rem 0.03106rem 0rem 9.03113rem;
+    padding: 5.63rem 0.03106rem 0rem 9.03113rem;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;

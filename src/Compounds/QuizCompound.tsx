@@ -1,4 +1,5 @@
 import { useContext } from 'react'
+import MainWindow from '../Components/MainWindow/MainWindow'
 import TitlePageCompound from './TitlePageCompound'
 import NavigationCompound from './NavigationCompound'
 import AnswerNewCompound from './AnswerNewCompound'

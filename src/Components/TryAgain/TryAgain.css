@@ -1,5 +1,6 @@
 .try-again-section-wrapper {
   display: flex;
+  height: 11.6rem;
   padding: 2.25rem 1rem 0rem 1rem;
   justify-content: center;
   align-items: center;

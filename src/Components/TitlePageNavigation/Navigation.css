@@ -1,5 +1,6 @@
 .navigation-section-wrapper {
   display: flex;
+  height: 10.125rem;
   padding: 2.25rem 1rem 0rem 1rem;
   justify-content: center;
   align-items: center;
@@ -7,6 +8,7 @@
 
 .text-and-button-wrapper {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -15,7 +17,6 @@
 
 .button-preview {
   display: flex;
-  width: 18.75rem;
   justify-content: center;
   align-items: flex-start;
   gap: 0.625rem;
