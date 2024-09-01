@@ -51,7 +51,7 @@
       "category": "verbs of preference",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Оттенок какого слова показывает бо́льшую любовь?",
+      "question": "Оттенок какого глагола показывает бо́льшую любовь?",
       "correct_answer": "To be keen on",
       "answers": [
         "To like", 
@@ -63,7 +63,7 @@
       "category": "verbs of preference",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Оттенок какого слова показывает бо́льшую не любовь?",
+      "question": "Оттенок какого глагола показывает бо́льшую не любовь?",
       "correct_answer": "To hate",
       "answers": [
         "To hate", 
@@ -88,7 +88,7 @@
       "category": "verbs of preference",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "I prefer ... with cats to dogs.",
+      "question": "I prefer ... in defence.",
       "correct_answer": "Playing",
       "answers": [  
         "Play",
