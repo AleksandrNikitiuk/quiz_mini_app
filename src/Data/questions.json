@@ -1,132 +1,127 @@
 [
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "I ________ visit my granny in summer. I miss her so much!",
-    "correct_answer": "Am going to",
-    "answers": [
-      "To be going to",
-      "Am going to",
-      "Isn’t going to",
-      "Will"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "I believe she  _____ pass all the exams well.",
-    "correct_answer":"Will",
-    "answers": [
-      "Is going to",
-      "Are going to",
-      "Am going to",
-      "Will"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Jack  _____ fail the exams. He wasn’t attending the classes the whole year!",
-    "correct_answer": "Is going to",
-    "answers": [
-      "Is going to",
-      "Isn’t going to",
-      "Will",
-      "Won’t"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "He ____ manage to do the project alone. I’m sure he needs some help.",
-    "correct_answer": "Won’t",
-    "answers": [
-      "Is going to",
-      "Isn’t going to",
-      "Will",
-      "Won’t"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Look! It’s got so cloudy. It _______  rain now! It’s better to hurry.",
-    "correct_answer": "Is going to",
-    "answers": [
-      "Is going to",
-      "Isn’t going to",
-      "Will",
-      "Won’t"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "My sister feels really sick. She _____ join us the club.",
-    "correct_answer": "Isn’t going to",
-    "answers": [
-      "Is going to",
-      "Isn’t going to",
-      "Will",
-      "Won’t"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Steve thinks we _____ break up soon! Isn’t that annoying and really rude of him to tell us such things?",
-    "correct_answer": "Will",
-    "answers": [
-      "Is going to",
-      "Are going to",
-      "Will",
-      "Won’t"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "It’s got so stuffy in here! I _____ open the window.",
-    "correct_answer": "Will",
-    "answers": [
-      "Am going to",
-      "Am not going to",
-      "Will",
-      "Won’t"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "The goalkeeper hurt his arm last match. They ______ let him out.",
-    "correct_answer": "Aren’t going to",
-    "answers": [
-      "Are going to",
-      "Aren’t going to",
-      "Will",
-      "Won’t"
-    ]
-  },
-  {
-    "category": "To be going to - Future Simple",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Wait a second! It’s too dark, you may get hurt. I _____ turn on the light.",
-    "correct_answer": "Will",
-    "answers": [
-      "Am going to",
-      "Am not going to",
-      "Will",
-      "Won’t"
-    ]
-  }
-]
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "To be keen on:",
+      "correct_answer": "Любить что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "To like:",
+      "correct_answer":"Любить что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "To hate:",
+      "correct_answer": "Ненавидеть что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Not to mind:",
+      "correct_answer": "Не иметь ничего против чего-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Оттенок какого слова показывает бо́льшую любовь?",
+      "correct_answer": "To be keen on",
+      "answers": [
+        "To like", 
+        "To love",
+        "To be keen on" 
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Оттенок какого слова показывает бо́льшую не любовь?",
+      "correct_answer": "To hate",
+      "answers": [
+        "To hate", 
+        "To dislike",
+        "Can't stand" 
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": " I don't mind ... time with my aunt.",
+      "correct_answer": "Spending",
+      "answers": [
+        "Spend",
+        "To spend", 
+        "Spending",
+        "Spent" 
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "I prefer ... with cats to dogs.",
+      "correct_answer": "Playing",
+      "answers": [  
+        "Play",
+        "To play", 
+        "Playing", 
+        "Played"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "We enjoy ... in Russia.",
+      "correct_answer": "Travelling",
+      "answers": [
+        "Travel",
+        "To travel",
+        "Travelling", 
+        "Travelled"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "My dad really loves ... basketball matches on TV.",
+      "correct_answer": "Watching",
+      "answers": [
+        "Watch",
+        "To watch", 
+        "Watching", 
+        "Watched"
+      ]
+    }
+  ]
+  
