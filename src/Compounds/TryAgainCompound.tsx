@@ -14,8 +14,10 @@ export default function TryAgainCompound() {
   const {correctAnswersNumber} = useContext(MainContext)
   const finishWords = FinishMessages[correctAnswersNumber === 0? 0: correctAnswersNumber - 1].message
 
-  function doButtonClickActions() {
-    window.location.href = 'https://localhost:5173/';
+  function doButtonClickActions(isAllAnswersCorrect: boolean) {
+    isAllAnswersCorrect
+      ? window.location.href = 'https://localhost:5173/'
+      :window.location.href = 'https://t.me/homeoflanguages_perm/75';
   }
 
   return (
@@ -41,10 +43,12 @@ export default function TryAgainCompound() {
             
             <NextQuestionButtonWrapper>
                 <NextQuestionButton
-                    onClick={ doButtonClickActions }
+                    onClick={ () => doButtonClickActions(correctAnswersNumber !== 10) }
                     className={'start_test-button'}
                 >
-                    Try again
+                    {correctAnswersNumber !== 10
+                      ? 'Try again'
+                      : 'Share'}
                 </NextQuestionButton>
             </NextQuestionButtonWrapper>
 
