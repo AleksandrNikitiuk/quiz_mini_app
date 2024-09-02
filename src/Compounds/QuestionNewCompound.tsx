@@ -22,7 +22,7 @@ export default function QuestionNewCompound() {
                     word  === 'answer' ? answerResult === ''? 'spacer': 'answer-in-question': 'text'
                 }
                 >
-                {word  === 'answer'?  answerResult ===''? word : answerResult : word}
+                {word  === 'answer'?  answerResult ===''? word : answerResult.toLowerCase() : word}
                 </QuestionWords>
             ))}
         </QuestionText>

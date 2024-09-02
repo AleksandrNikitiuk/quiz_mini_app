@@ -1,242 +1,207 @@
 [
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
-        "I",
-        "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "To",
+        "be",
+        "keen",
+        "on:"
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "Любить что-то",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
-        "I",
-        "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "To",
+        "like:"
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "Любить что-то",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
-        "I",
-        "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "To",
+        "hate:"
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "Ненавидеть что-то",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
-        "I",
-        "answer",
-        "go",
+        "Not",
         "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "mind:"
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "Не иметь ничего против чего-то",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
-        "I",
-        "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "Оттенок",
+        "какого",
+        "глагола",
+        "показывает",
+        "бо́льшую",
+        "любовь?"
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "To be keen on",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "To like", 
+        "To love",
+        "To be keen on" 
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
-        "I",
-        "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "Оттенок",
+        "какого",
+        "глагола",
+        "показывает",
+        "бо́льшую",
+        "не",
+        "любовь?"
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "To hate",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "To hate", 
+        "To dislike",
+        "Can't stand" 
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
         "I",
+        "don't",
+        "mind",
         "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "time",
+        "with",
+        "my",
+        "aunt."
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "Spending",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "Spend",
+        "To spend", 
+        "Spending",
+        "Spent" 
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
         "I",
+        "prefer",
         "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "in",
+        "defence."
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
-      "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+      "correct_answer": "Playing",
+      "answers": [  
+        "Play",
+        "To play", 
+        "Playing", 
+        "Played"
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
-        "I",
+        "We",
+        "enjoy",
         "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "in",
+        "Russia."
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "Travelling",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "Travel",
+        "To travel",
+        "Travelling", 
+        "Travelled"
       ]
     },
     {
-      "category": ["To","be","going","to"],
+      "category": ["verbs", "of", "preference"],
       "type": "multiple",
       "difficulty": "easy, like egg 🥚",
       "question": [
-        "I",
+        "My",
+        "dad",
+        "really",
+        "loves",
         "answer",
-        "go",
-        "to",
-        "New",
-        "York",
-        "this",
-        "autumn."
+        "basketball",
+        "matches",
+        "on",
+        "TV."
       ],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "am going to",
+      "correct_answer": "Watching",
       "answers": [
-        "to%20be%20going%20to",
-        "am going to",
-        "isn’t%20going%20to",
-        "are%20going%20to"
+        "Watch",
+        "To watch", 
+        "Watching", 
+        "Watched"
       ]
     }
   ]
