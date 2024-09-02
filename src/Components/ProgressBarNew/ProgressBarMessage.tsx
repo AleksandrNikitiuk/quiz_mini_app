@@ -5,5 +5,5 @@ interface PropsType {
 }
 
 export default function ProgressBarMessage({ children }: PropsType) {
-  return <p className='progress-bar-message'>{children}</p>
+  return <div className='progress-bar-message'>{children}</div>
 }

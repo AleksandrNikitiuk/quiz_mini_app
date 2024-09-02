@@ -1,6 +1,6 @@
 .finish-page-section-wrapper {
     display: flex;
-    height: 70vh;
+    height: 80vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -17,8 +17,6 @@
 
 .finish-text {
     display: inline-block;
-    margin: 0 auto;
-    width: 22.375rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;

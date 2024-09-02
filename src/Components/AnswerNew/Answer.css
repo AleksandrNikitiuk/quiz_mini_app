@@ -1,6 +1,6 @@
 .answer-buttons-wrapper {
   display: flex;
-  height: 37vh;
+  height: 42vh;
   padding: 0rem 1rem;
   padding-top: 3vh;
   flex-direction: column;
@@ -43,11 +43,12 @@
 
 .next-question-button-wrapper {
   display: flex;
-  height: 15vh;
+  height: 12vh;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 2rem 1rem 0rem 1rem;
+  padding: 0rem 1rem;
+  padding-top: 3vh;
 }
 
 .next-question-button {
