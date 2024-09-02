@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import QuestionsData from '../Data/questions.json'
+import MessagesData from '../Data/messages.json'
 import ProgressBarData from '../Components/ProgressBarNew/ProgressBarData'
 import ProgressBarWrapper from '../Components/ProgressBarNew/ProgressBarWrapper'
 import ProgressBarAndDataWrapper from '../Components/ProgressBarNew/ProgressBarAndDataWrapper'
@@ -9,7 +10,7 @@ import ProgressBarMessage from '../Components/ProgressBarNew/ProgressBarMessage'
 import { MainContext } from '../Context/MainContext'
 
 export default function ProgressBarNewCompound() {
-  const { currentQuestion } = useContext(MainContext)
+  const { currentQuestion, showAnswerResult } = useContext(MainContext)
   const totalQuestions = QuestionsData.length
   const widthPercentage = ((currentQuestion) / totalQuestions) * 100
 
@@ -17,9 +18,11 @@ export default function ProgressBarNewCompound() {
     <>
       <ProgressSectionWrapper>
         <ProgressBarMessage>
-            {currentQuestion === 0
+            {showAnswerResult === ''
                 ? ''
-                : 'Keep going'}
+                : showAnswerResult === 'Correct Answer!'
+                    ?  `${MessagesData[Math.floor(Math.random() * (5 - 3 + 1)) + 3].message}`
+                    : `${MessagesData[Math.floor(Math.random() * (2 - 0 + 1)) + 0].message}`}
         </ProgressBarMessage>
         <ProgressBarAndDataWrapper>
           <ProgressBarWrapper>

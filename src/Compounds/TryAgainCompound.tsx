@@ -1,13 +1,18 @@
+import { useContext } from 'react'
 import FinishMessages from '../Data/newFinishMessages.json'
-import TryAgainSectionWrapper from '../Components/TryAgain/TryAgainSectionWrapper'
-import TextAndButtonWrapper from '../Components/TryAgain/TextAndButtonWrapper'
+{/*import TryAgainSectionWrapper from '../Components/TryAgain/TryAgainSectionWrapper'
+import TextAndButtonWrapper from '../Components/TryAgain/TextAndButtonWrapper'*/}
+import TextWrapper from '../Components/TryAgain/TextWrapper'
+import ButtonWrapper from '../Components/TryAgain/ButtonWrapper'
 import ButtonPreview from '../Components/TryAgain/ButtonPreview'
 import TryAgainWords from '../Components/TryAgain/TryAgainWords'
 import NextQuestionButtonWrapper from '../Components/TryAgain/TryAgainButtonWrapper'
 import NextQuestionButton from '../Components/TryAgain/TryAgainButton'
+import { MainContext } from '../Context/MainContext'
 
 export default function TryAgainCompound() {
-  const finishWords = FinishMessages[0].message
+  const {correctAnswersNumber} = useContext(MainContext)
+  const finishWords = FinishMessages[correctAnswersNumber === 0? 0: correctAnswersNumber - 1].message
 
   function doButtonClickActions() {
     window.location.href = 'https://localhost:5173/';
@@ -15,12 +20,10 @@ export default function TryAgainCompound() {
 
   return (
     <>
-      <TryAgainSectionWrapper>
-        
-        <TextAndButtonWrapper>
+      <TextWrapper>
             
             <ButtonPreview>
-              {finishWords.map((word: string, index: number) => (
+            {finishWords.map((word: string, index: number) => (
                   <TryAgainWords
                   key={index}
                   className={
@@ -31,6 +34,10 @@ export default function TryAgainCompound() {
                   </TryAgainWords>
               ))}
             </ButtonPreview>
+
+      </TextWrapper>
+
+      <ButtonWrapper>
             
             <NextQuestionButtonWrapper>
                 <NextQuestionButton
@@ -41,10 +48,7 @@ export default function TryAgainCompound() {
                 </NextQuestionButton>
             </NextQuestionButtonWrapper>
 
-      </TextAndButtonWrapper>
-    
-    </TryAgainSectionWrapper>
-      
+      </ButtonWrapper>      
     </>
   )
 }

@@ -1,6 +1,6 @@
 .navigation-section-wrapper {
   display: flex;
-  height: 10.125rem;
+  height: 20vh;
   padding: 2.25rem 1rem 0rem 1rem;
   justify-content: center;
   align-items: center;
@@ -58,4 +58,21 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.01381rem;
+}
+
+.text-wrapper {
+  display: flex;
+  height: 5vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wrapper {
+  display: flex;
+  height: 15vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 1rem 0rem 1rem;
 }

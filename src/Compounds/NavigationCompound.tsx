@@ -1,7 +1,9 @@
 import { useContext } from 'react'
 import QuestionsData from '../Data/question_new.json'
-import NavigationSectionWrapper from '../Components/TitlePageNavigation/NavigationSectionWrapper'
-import TextAndButtonWrapper from '../Components/TitlePageNavigation/TextAndButtonWrapper'
+{/*import NavigationSectionWrapper from '../Components/TitlePageNavigation/NavigationSectionWrapper'
+import TextAndButtonWrapper from '../Components/TitlePageNavigation/TextAndButtonWrapper'*/}
+import TextWrapper from '../Components/TitlePageNavigation/TextWrapper'
+import ButtonWrapper from '../Components/TitlePageNavigation/ButtonWrapper'
 import ButtonPreview from '../Components/TitlePageNavigation/ButtonPreview'
 import NextQuestionButtonWrapper from '../Components/TitlePageNavigation/NextQuestionButtonWrapper'
 import NextQuestionButton from '../Components/TitlePageNavigation/NextQuestionButton'
@@ -18,7 +20,29 @@ export default function NavigationCompound() {
 
   return (
     <>
-      <NavigationSectionWrapper>
+      <TextWrapper>
+            
+            <ButtonPreview>
+              level <br />
+              {difficulty}
+            </ButtonPreview>
+
+      </TextWrapper>
+
+      <ButtonWrapper>
+            
+            <NextQuestionButtonWrapper>
+                <NextQuestionButton
+                    onClick={ doButtonClickActions }
+                    className={'start_test-button'}
+                >
+                    Go
+                </NextQuestionButton>
+            </NextQuestionButtonWrapper>
+
+      </ButtonWrapper>
+
+      {/* <NavigationSectionWrapper>
         
         <TextAndButtonWrapper>
             
@@ -38,7 +62,7 @@ export default function NavigationCompound() {
 
       </TextAndButtonWrapper>
     
-    </NavigationSectionWrapper>
+    </NavigationSectionWrapper> */}
       
     </>
   )

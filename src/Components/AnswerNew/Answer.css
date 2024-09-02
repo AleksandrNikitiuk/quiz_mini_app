@@ -1,19 +1,11 @@
-.answer-section-wrapper {
-  display: flex;
-  height: 24.625rem;
-  padding: 0rem 1rem;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 0;
-  gap: 2.2rem;
-}
-
 .answer-buttons-wrapper {
   display: flex;
-  height: 14.5rem;
+  height: 37vh;
+  padding: 0rem 1rem;
+  padding-top: 3vh;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 1.10375vh;
   align-self: stretch;
 }
 
@@ -51,11 +43,11 @@
 
 .next-question-button-wrapper {
   display: flex;
+  height: 15vh;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  gap: 2rem;
-  align-self: stretch;
+  padding: 2rem 1rem 0rem 1rem;
 }
 
 .next-question-button {

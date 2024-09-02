@@ -1,6 +1,6 @@
 .title-page-section-wrapper {
     display: flex;
-    height: 32.875rem;
+    height: 70vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 
 .title-text {
     display: inline-block;
-    width: 22.375rem;
+    width: 50vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;

@@ -2,7 +2,7 @@ import { useContext, useState } from 'react'
 import QuestionsData from '../Data/question_new.json'
 import AnswerButton from '../Components/AnswerNew/AnswerButton'
 import AnswerButtonsWrapper from '../Components/AnswerNew/AnswerButtonsWrapper'
-import AnswerSectionWrapper from '../Components/AnswerNew/AnswerSectionWrapper'
+{/*import AnswerSectionWrapper from '../Components/AnswerNew/AnswerSectionWrapper'*/}
 import NextQuestionButton from '../Components/AnswerNew/NextQuestionButton'
 import NextQuestionButtonWrapper from '../Components/AnswerNew/NextQuestionButtonWrapper'
 import FinishMessage from '../Components/AnswerNew/FinishMessage'
@@ -35,6 +35,7 @@ export default function AnswerCompound() {
     if (answer === correctAnswer) {
       setShowAnswerResult!('Correct Answer!')
       setFinalResult('correct')
+      setWrongClickedAnswer('')
       setAnswerResult!(correctAnswer)
     }
     if (answer !== correctAnswer) {
@@ -90,7 +91,7 @@ export default function AnswerCompound() {
 
   return (
     <>
-      <AnswerSectionWrapper>
+      {/*<AnswerSectionWrapper>*/}
         <AnswerButtonsWrapper>
           {answersArray.map((answer: string, index: number) => (
             <AnswerButton
@@ -117,7 +118,7 @@ export default function AnswerCompound() {
                 Next
             </NextQuestionButton>
         </NextQuestionButtonWrapper>
-      </AnswerSectionWrapper>
+      {/*</AnswerSectionWrapper>*/}
       {showFinishMessage ? (
         <FinishMessageOverlay>
           <FinishMessage />
