@@ -34,7 +34,7 @@ export default function AnswerCompound() {
     if (answer === correctAnswer) {
       setShowAnswerResult!('Correct Answer!')
       setFinalResult('correct')
-      setAnswerResult!(correctAnswer)
+      setWrongClickedAnswer('')
     }
     if (answer !== correctAnswer) {
       setShowAnswerResult!('Wrong Answer!')

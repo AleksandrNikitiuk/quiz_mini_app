@@ -1,132 +1,126 @@
 [
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "I%20________%20go%20to%20New%20York%20this%20autumn.",
-    "correct_answer": "am going to",
-    "answers": [
-      "to%20be%20going%20to",
-      "am going to",
-      "isn’t%20going%20to",
-      "are%20going%20to"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Mary%20_____%20have%20a%20baby%20this%20summer.",
-    "correct_answer":"is%20going%20to",
-    "answers": [
-      "am%20going%20to",
-      "is%20going%20to",
-      "are%20going%20to",
-      "am%20not%20going%20to"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "My%20bestie%20%20_____%20%20join%20us%20this%20Saturday,%20her%20babies%20are%20sick.",
-    "correct_answer": "isn’t%20going%20to",
-    "answers": [
-      "is%20going%20to",
-      "isn’t%20going%20to",
-      "are%20going%20to",
-      "am%20going%20to"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "We%20____%20drive%20there,%20our%20relatives%20need%20us!%20Not%20a%20word%20any%20more!%20Go%20get%20your%20stuff!",
-    "correct_answer": "are%20going%20to",
-    "answers": [
-      "is%20going%20to",
-      "isn’t%20going%20to",
-      "are%20going%20to",
-      "aren’t%20going%20to"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Daniel%20and%20Mark%20_______%20%20%20be%20a%20little%20bit%20later.%20Let’s%20wait%20for%20them.",
-    "correct_answer": "are%20going%20to",
-    "answers": [
-      "is%20going%20to",
-      "isn’t%20going%20to",
-      "are%20going%20to",
-      "aren’t%20going%20to"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "We%20_____%20%20move%20the%20house%20this%20week.%20So%20I%20have%20no%20free%20time,%20sorry.",
-    "correct_answer": "are%20going%20to",
-    "answers": [
-      "is%20going%20to",
-      "isn’t%20going%20to",
-      "are%20going%20to",
-      "aren’t%20going%20to"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "_______%20sign%20the%20papers?%20I’m%20still%20waiting.",
-    "correct_answer": "are%20you%20going%20to",
-    "answers": [
-      "is%20you%20going%20to",
-      "are%20you%20going%20to",
-      "am%20she%20going%20to",
-      "who%20going%20to"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "Oh,%20it%20__________%20snow%20now…%20I%20hate%20snowy%20and%20cloudy%20weather!",
-    "correct_answer": "is%20going%20to",
-    "answers": [
-      "am%20going%20to",
-      "is%20not%20going%20to",
-      "is%20going%20to",
-      "are%20going%20to"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "The%20player%20______%20leave%20the%20team%20this%20April.",
-    "correct_answer": "is%20going%20to",
-    "answers": [
-      "are%20going%20to",
-      "is%20going%20to",
-      "am%20going%20to",
-      "is%20going"
-    ]
-  },
-  {
-    "category": "To%20be%20going%20to",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "The%20sales%20manager%20______%20offer%20the%20best%20options%20for%20you!",
-    "correct_answer": "is%20going%20to",
-    "answers": [
-      "am%20going%20to",
-      "is%20going%20to",
-      "is%20going",
-      "are%20going%20to"
-    ]
-  }
-]
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "To be keen on:",
+      "correct_answer": "Любить что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "To like:",
+      "correct_answer":"Любить что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "To hate:",
+      "correct_answer": "Ненавидеть что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Not to mind:",
+      "correct_answer": "Не иметь ничего против чего-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Оттенок какого глагола показывает бо́льшую любовь?",
+      "correct_answer": "To be keen on",
+      "answers": [
+        "To like", 
+        "To love",
+        "To be keen on" 
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Оттенок какого глагола показывает бо́льшую не любовь?",
+      "correct_answer": "To hate",
+      "answers": [
+        "To hate", 
+        "To dislike",
+        "Can't stand" 
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": " I don't mind ... time with my aunt.",
+      "correct_answer": "Spending",
+      "answers": [
+        "Spend",
+        "To spend", 
+        "Spending",
+        "Spent" 
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "I prefer ... in defence.",
+      "correct_answer": "Playing",
+      "answers": [  
+        "Play",
+        "To play", 
+        "Playing", 
+        "Played"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "We enjoy ... in Russia.",
+      "correct_answer": "Travelling",
+      "answers": [
+        "Travel",
+        "To travel",
+        "Travelling", 
+        "Travelled"
+      ]
+    },
+    {
+      "category": "verbs of preference",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "My dad really loves ... basketball matches on TV.",
+      "correct_answer": "Watching",
+      "answers": [
+        "Watch",
+        "To watch", 
+        "Watching", 
+        "Watched"
+      ]
+    }
+  ]

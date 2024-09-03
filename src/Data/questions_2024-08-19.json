@@ -1,0 +1,132 @@
+[
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "I ________ visit my granny in summer. I miss her so much!",
+    "correct_answer": "Am going to",
+    "answers": [
+      "To be going to",
+      "Am going to",
+      "Isn’t going to",
+      "Will"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "I believe she  _____ pass all the exams well.",
+    "correct_answer":"Will",
+    "answers": [
+      "Is going to",
+      "Are going to",
+      "Am going to",
+      "Will"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Jack  _____ fail the exams. He wasn’t attending the classes the whole year!",
+    "correct_answer": "Is going to",
+    "answers": [
+      "Is going to",
+      "Isn’t going to",
+      "Will",
+      "Won’t"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "He ____ manage to do the project alone. I’m sure he needs some help.",
+    "correct_answer": "Won’t",
+    "answers": [
+      "Is going to",
+      "Isn’t going to",
+      "Will",
+      "Won’t"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Look! It’s got so cloudy. It _______  rain now! It’s better to hurry.",
+    "correct_answer": "Is going to",
+    "answers": [
+      "Is going to",
+      "Isn’t going to",
+      "Will",
+      "Won’t"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "My sister feels really sick. She _____ join us the club.",
+    "correct_answer": "Isn’t going to",
+    "answers": [
+      "Is going to",
+      "Isn’t going to",
+      "Will",
+      "Won’t"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Steve thinks we _____ break up soon! Isn’t that annoying and really rude of him to tell us such things?",
+    "correct_answer": "Will",
+    "answers": [
+      "Is going to",
+      "Are going to",
+      "Will",
+      "Won’t"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "It’s got so stuffy in here! I _____ open the window.",
+    "correct_answer": "Will",
+    "answers": [
+      "Am going to",
+      "Am not going to",
+      "Will",
+      "Won’t"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The goalkeeper hurt his arm last match. They ______ let him out.",
+    "correct_answer": "Aren’t going to",
+    "answers": [
+      "Are going to",
+      "Aren’t going to",
+      "Will",
+      "Won’t"
+    ]
+  },
+  {
+    "category": "To be going to - Future Simple",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Wait a second! It’s too dark, you may get hurt. I _____ turn on the light.",
+    "correct_answer": "Will",
+    "answers": [
+      "Am going to",
+      "Am not going to",
+      "Will",
+      "Won’t"
+    ]
+  }
+]
