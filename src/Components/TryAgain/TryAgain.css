@@ -60,7 +60,7 @@
 
 .message {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
   color: var(--bttn-answer-typo, #000);
   text-align: center;
 

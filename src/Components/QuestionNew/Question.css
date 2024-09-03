@@ -13,36 +13,34 @@
 .question-text {
   display: inline-block;
   margin: 0 auto;
-  justify-content: left;
 
   /* question */
   /* font-family: "SF Pro"; */
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 2rem; /* 114.286% */
+  line-height: 1.75rem; /* 114.286% */
   letter-spacing: -0.03125rem;
 }
 
 .text {
   display: inline-block;
   color: #000;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .spacer {
   display: inline-block;
   width: auto;
-  height: 2rem;
+  height: 1.75rem;
   border-radius: 0.75rem;
   background-color: #F5F5F5;
   color: #F5F5F5;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .answer-in-question {
   display: inline-block;
   color: #00C75E;
-  margin-right: 10px;
-  word-spacing: 2px;
+  margin-right: 5px;
 }
