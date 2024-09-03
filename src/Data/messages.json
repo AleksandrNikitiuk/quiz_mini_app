@@ -1,15 +1,15 @@
 [
     {
-      "message": "Oops... 🤫"
+      "message": "Oops... "
     },
     {
-      "message": "Incorrect 🚫"
+      "message": "Incorrect"
     },
     {
-      "message": "Not really 😕"
+      "message": "Not really"
     },
     {
-      "message": "Wrong choice 😔"
+      "message": "Wrong choice"
     },
     {
       "message": "Super duper!"
@@ -18,15 +18,15 @@
       "message": "Fantastic!"
     },
     {
-      "message": "Cool 😎"
+      "message": "Cool"
     },
     {
-      "message": "Correct 💯"
+      "message": "Correct"
     },
     {
-      "message": "Awesome 👍"
+      "message": "Awesome"
     },
     {
-      "message": "Wow 🤩"
+      "message": "Wow"
     }
   ]
