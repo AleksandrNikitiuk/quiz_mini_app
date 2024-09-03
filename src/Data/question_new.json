@@ -1,0 +1,208 @@
+[
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "To",
+        "be",
+        "keen",
+        "on:"
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "Любить что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "To",
+        "like:"
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "Любить что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "To",
+        "hate:"
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "Ненавидеть что-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "Not",
+        "to",
+        "mind:"
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "Не иметь ничего против чего-то",
+      "answers": [
+        "Любить что-то", 
+        "Ненавидеть что-то", 
+        "Не иметь ничего против чего-то"
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "Оттенок",
+        "какого",
+        "глагола",
+        "показывает",
+        "бо́льшую",
+        "любовь?"
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "To be keen on",
+      "answers": [
+        "To like", 
+        "To love",
+        "To be keen on" 
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "Оттенок",
+        "какого",
+        "глагола",
+        "показывает",
+        "бо́льшую",
+        "не",
+        "любовь?"
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "To hate",
+      "answers": [
+        "To hate", 
+        "To dislike",
+        "Can't stand" 
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "I",
+        "don't",
+        "mind",
+        "answer",
+        "time",
+        "with",
+        "my",
+        "aunt."
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "Spending",
+      "answers": [
+        "Spend",
+        "To spend", 
+        "Spending",
+        "Spent" 
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "I",
+        "prefer",
+        "answer",
+        "in",
+        "defence."
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "Playing",
+      "answers": [  
+        "Play",
+        "To play", 
+        "Playing", 
+        "Played"
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "We",
+        "enjoy",
+        "answer",
+        "in",
+        "Russia."
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "Travelling",
+      "answers": [
+        "Travel",
+        "To travel",
+        "Travelling", 
+        "Travelled"
+      ]
+    },
+    {
+      "category": ["verbs", "of", "preference"],
+      "type": "multiple",
+      "difficulty": "easy-peasy",
+      "question": [
+        "My",
+        "dad",
+        "really",
+        "loves",
+        "answer",
+        "basketball",
+        "matches",
+        "on",
+        "TV."
+      ],
+      "first_part_text": "Hello, my ",
+      "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
+      "correct_answer": "Watching",
+      "answers": [
+        "Watch",
+        "To watch", 
+        "Watching", 
+        "Watched"
+      ]
+    }
+  ]
+  
