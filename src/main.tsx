@@ -6,8 +6,8 @@ import './index.css'
 import WebApp from '@twa-dev/sdk'
 import { MainContextProvider } from './Context/MainContext'
 
-WebApp.ready();
 WebApp.expand();
+WebApp.ready();
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
