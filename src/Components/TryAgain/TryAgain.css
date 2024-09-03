@@ -30,6 +30,21 @@
   letter-spacing: -0.0375rem;
 }
 
+.button-preview-dark {
+  display: inline-block;
+  justify-content: left; 
+  color: var(--bttn-answer-typo, #fff);
+  text-align: center;
+  white-space: pre-wrap;
+
+  /* button previev */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 510;
+  line-height: normal;
+  letter-spacing: -0.0375rem;
+}
+
 .start_test-button-wrapper {
   display: flex;
   flex-direction: column;
@@ -61,7 +76,6 @@
 .message {
   display: inline-block;
   margin-right: 5px;
-  color: var(--bttn-answer-typo, #000);
   text-align: center;
 
   /* button previev */
