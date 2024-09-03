@@ -5,6 +5,8 @@ interface PropsType {
 }
 
 interface ContextInterface {
+  theme: string
+  setTheme?: (arg0: string) => void
   currentQuestion: number
   setCurrentQuestion?: (arg0: number) => void
   showAnswerResult: string
@@ -24,6 +26,7 @@ interface ContextInterface {
 }
 
 export const MainContext = createContext<ContextInterface>({
+  theme: 'light',
   currentQuestion: 1,
   showAnswerResult: '',
   correctAnswersNumber: 0,
@@ -35,6 +38,7 @@ export const MainContext = createContext<ContextInterface>({
 })
 
 export const MainContextProvider = ({ children }: PropsType) => {
+  const [theme, setTheme] = useState('light')
   const [currentQuestion, setCurrentQuestion] = useState(1)
   const [showAnswerResult, setShowAnswerResult] = useState('')
   const [correctAnswersNumber, setCorrectAnswersNumber] = useState(0)
@@ -47,6 +51,8 @@ export const MainContextProvider = ({ children }: PropsType) => {
   return (
     <MainContext.Provider
       value={{
+        theme,
+        setTheme,
         currentQuestion,
         setCurrentQuestion,
         showAnswerResult,
