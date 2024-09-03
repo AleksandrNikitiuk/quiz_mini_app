@@ -14,7 +14,20 @@
 .question-text {
   display: inline-block;
   margin: 0 auto;
+  color: #000;
+  /* question */
+  /* font-family: "SF Pro"; */
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem; /* 114.286% */
+  letter-spacing: -0.03125rem;
+}
 
+.question-text-dark {
+  display: inline-block;
+  margin: 0 auto;
+  color: #000;
   /* question */
   /* font-family: "SF Pro"; */
   font-size: 1.75rem;
@@ -26,7 +39,7 @@
 
 .text {
   display: inline-block;
-  color: #000;
+  
   margin-right: 5px;
 }
 

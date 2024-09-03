@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
 import './FinishPage.css'
+import WebApp from '@twa-dev/sdk'
 
 interface PropsType {
   children: ReactNode
@@ -7,7 +8,7 @@ interface PropsType {
 
 export default function FinishText({ children }: PropsType) {
   return (
-    <div className='finish-text'>
+    <div className={WebApp.colorScheme === 'light'? 'finish-text': 'finish-text-dark'}>
       {children}
     </div>
   )
