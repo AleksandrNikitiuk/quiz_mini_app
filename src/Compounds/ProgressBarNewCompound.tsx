@@ -21,8 +21,8 @@ export default function ProgressBarNewCompound() {
             {showAnswerResult === ''
                 ? ''
                 : showAnswerResult === 'Correct Answer!'
-                    ?  `${MessagesData[Math.floor(Math.random() * (5 - 3 + 1)) + 3].message}`
-                    : `${MessagesData[Math.floor(Math.random() * (2 - 0 + 1)) + 0].message}`}
+                    ?  `${MessagesData[Math.floor(Math.random() * (9 - 4 + 1)) + 4].message}`
+                    : `${MessagesData[Math.floor(Math.random() * (3 - 0 + 1)) + 0].message}`}
         </ProgressBarMessage>
         <ProgressBarAndDataWrapper>
           <ProgressBarWrapper>

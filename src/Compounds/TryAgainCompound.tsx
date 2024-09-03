@@ -16,7 +16,7 @@ export default function TryAgainCompound() {
 
   function doButtonClickActions(isAllAnswersCorrect: boolean) {
     isAllAnswersCorrect
-      ? window.location.href = 'https://localhost:5173/'
+      ? window.location.href = 'https://aleksandrnikitiuk.github.io/quiz_mini_app/'
       :window.location.href = 'https://t.me/homeoflanguages_perm/75';
   }
 

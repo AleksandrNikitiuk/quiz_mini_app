@@ -1,20 +1,32 @@
 [
     {
-      "message": "Oooops!"
+      "message": "Oops... 🤫"
     },
     {
-      "message": "What a shame!"
+      "message": "Incorrect 🚫"
     },
     {
-      "message": "Oooops!"
+      "message": "Not really 😕"
     },
     {
-      "message": "Keep Going"
+      "message": "Wrong choice 😔"
     },
     {
-      "message": "Great! Way to go!"
+      "message": "Super duper!"
     },
     {
-      "message": "Nice choice!"
+      "message": "Fantastic!"
+    },
+    {
+      "message": "Cool 😎"
+    },
+    {
+      "message": "Correct 💯"
+    },
+    {
+      "message": "Awesome 👍"
+    },
+    {
+      "message": "Wow 🤩"
     }
   ]
