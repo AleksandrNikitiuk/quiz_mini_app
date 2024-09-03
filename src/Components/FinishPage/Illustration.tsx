@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import './FinishPage.css'
 import accent from '/accent.svg'
-import stars from '/stars.png'
+import stars from '/stars.svg'
 import { MainContext } from '../../Context/MainContext'
 
 
