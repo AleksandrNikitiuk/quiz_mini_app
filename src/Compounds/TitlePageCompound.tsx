@@ -7,6 +7,7 @@ import HandDrawing from '../Components/TitlePage/HandDrawing'
 import HandDrawingIllustration from '../Components/TitlePage/HandDrawingIllustration.tsx'
 import QuestionsData from '../Data/question_new.json'
 import { MainContext } from '../Context/MainContext'
+import WebApp from '@twa-dev/sdk'
 
 
 export default function QuestionNewCompound() {
@@ -24,7 +25,7 @@ export default function QuestionNewCompound() {
                 <TitleWords
                 key={index}
                 className={
-                    'word'
+                    WebApp.colorScheme === 'light'? 'word': 'word-dark'
                 }
                 >
                 {word}

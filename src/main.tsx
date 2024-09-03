@@ -6,7 +6,7 @@ import './index.css'
 import WebApp from '@twa-dev/sdk'
 import { MainContextProvider } from './Context/MainContext'
 
-WebApp.expand();
+WebApp.expand;
 WebApp.ready();
 
 createRoot(document.getElementById('root')!).render(
