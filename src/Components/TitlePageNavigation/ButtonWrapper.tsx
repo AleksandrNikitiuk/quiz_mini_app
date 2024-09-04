@@ -6,5 +6,5 @@ interface PropsType {
 }
 
 export default function ButtonWrapper({ children }: PropsType) {
-  return <div className='button-wrapper'>{children}</div>
+  return <div className='button-wrapper-navigation'>{children}</div>
 }

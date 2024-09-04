@@ -6,5 +6,5 @@ interface PropsType {
 }
 
 export default function TextWrapper({ children }: PropsType) {
-  return <div className='text-wrapper'>{children}</div>
+  return <div className='text-wrapper-navigation'>{children}</div>
 }

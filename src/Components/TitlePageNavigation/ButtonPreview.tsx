@@ -8,6 +8,6 @@ interface PropsType {
 
 export default function ButtonPreview({ children }: PropsType) {
   return <div className={
-    WebApp.colorScheme === 'light'? 'button-preview': 'button-preview-dark'
+    WebApp.colorScheme === 'light'? 'button-preview-navigation': 'button-preview-navigation-dark'
 }>{children}</div>
 }

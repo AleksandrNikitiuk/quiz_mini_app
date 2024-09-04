@@ -1,13 +1,11 @@
 import { useContext } from 'react'
 import FinishMessages from '../Data/newFinishMessages.json'
-{/*import TryAgainSectionWrapper from '../Components/TryAgain/TryAgainSectionWrapper'
-import TextAndButtonWrapper from '../Components/TryAgain/TextAndButtonWrapper'*/}
+import TryAgainButtonWrapper from '../Components/TryAgain/TryAgainButtonWrapper'
 import TextWrapper from '../Components/TryAgain/TextWrapper'
 import ButtonWrapper from '../Components/TryAgain/ButtonWrapper'
 import ButtonPreview from '../Components/TryAgain/ButtonPreview'
 import TryAgainWords from '../Components/TryAgain/TryAgainWords'
-import NextQuestionButtonWrapper from '../Components/TryAgain/TryAgainButtonWrapper'
-import NextQuestionButton from '../Components/TryAgain/TryAgainButton'
+import TryAgainButton from '../Components/TryAgain/TryAgainButton'
 import { MainContext } from '../Context/MainContext'
 
 export default function TryAgainCompound() {
@@ -41,16 +39,16 @@ export default function TryAgainCompound() {
 
       <ButtonWrapper>
             
-            <NextQuestionButtonWrapper>
-                <NextQuestionButton
+            <TryAgainButtonWrapper>
+                <TryAgainButton
                     onClick={ () => doButtonClickActions(correctAnswersNumber !== 10) }
-                    className={'start_test-button'}
+                    className={'try-again-button'}
                 >
                     {correctAnswersNumber !== 10
                       ? 'Try again'
                       : 'Share'}
-                </NextQuestionButton>
-            </NextQuestionButtonWrapper>
+                </TryAgainButton>
+            </TryAgainButtonWrapper>
 
       </ButtonWrapper>      
     </>

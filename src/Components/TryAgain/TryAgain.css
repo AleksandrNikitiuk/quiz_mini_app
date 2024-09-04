@@ -45,32 +45,32 @@
   letter-spacing: -0.0375rem;
 }
 
-.start_test-button-wrapper {
+.try-again-button-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  gap: 2rem;
+  gap: 4.65vh;
   align-self: stretch;
 }
 
-.start_test-button {
+.try-again-button {
   display: flex;
-  padding: 0.8125rem 3.5625rem;
+  padding: 1.89vh 8.28vh;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
+  gap: 1.45vh;
   align-self: stretch;
   border: none;
-  border-radius: 0.625rem;
+  border-radius: 1.45vh;
   background: #007AFF;
   color: #fff;
   text-align: center;
-  font-size: 1.375rem;
+  font-size: 3.198vh;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.01381rem;
+  letter-spacing: -0.03211vh;
 }
 
 .message {
@@ -88,19 +88,18 @@
 
 .text-wrapper {
   display: flex;
-  height: 5vh;
+  height: 16.572vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0rem 1rem;
+  padding: 0vh 2.3vh;
 }
 
 .button-wrapper {
   display: flex;
-  height: 12vh;
+  height: 2.326vh;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 0rem 1rem;
-  padding-top: 3vh;
+  padding: 0vh 2.3vh;
 }

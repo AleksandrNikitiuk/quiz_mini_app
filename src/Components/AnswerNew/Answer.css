@@ -1,11 +1,10 @@
 .answer-buttons-wrapper {
   display: flex;
-  height: 42vh;
-  padding: 0rem 1rem;
-  padding-top: 3vh;
+  height: 49.65vh;
+  padding: 0vh 2.3vh;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.10375vh;
+  gap: 1.45vh;
   align-self: stretch;
 }
 
@@ -13,21 +12,21 @@
 .green-button,
 .red-button {
   display: flex;
-  padding: 0.8125rem 3.5625rem;
+  padding: 1.89vh 8.28vh;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
+  gap: 1.45vh;
   align-self: stretch;
   border: none;
-  border-radius: 0.625rem;
+  border-radius: 1.45vh;
   background: #F5F5F5;
   color: #000;
   text-align: center;
-  font-size: 1.375rem;
+  font-size: 3.198vh;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.01381rem;
+  letter-spacing: -0.03211vh;
 }
 
 .green-button {
@@ -43,48 +42,47 @@
 
 .next-question-button-wrapper {
   display: flex;
-  height: 12vh;
+  height: 2.326vh;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 0rem 1rem;
-  padding-top: 3vh;
+  padding: 0vh 2.3vh;
 }
 
 .next-question-button {
   display: flex;
-  padding: 0.8125rem 3.5625rem;
+  padding: 1.89vh 8.28vh;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
+  gap: 1.45vh;
   align-self: stretch;
   border: none;
-  border-radius: 0.625rem;
+  border-radius: 1.45vh;
   background: #007AFF;
   color: #fff;
   text-align: center;
-  font-size: 1.375rem;
+  font-size: 3.198vh;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.01381rem;
+  letter-spacing: -0.03211vh;
 }
 
 .inactive-next-question-button {
   display: flex;
-  padding: 0.8125rem 3.5625rem;
+  padding: 1.89vh 8.28vh;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
+  gap: 1.45vh;
   align-self: stretch;
   border: none;
-  border-radius: 0.625rem;
+  border-radius: 1.45vh;
   background: #FCFCFC;
   color: #B7B7B7;
   text-align: center;
-  font-size: 1.375rem;
+  font-size: 3.198vh;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.01381rem;
+  letter-spacing: -0.03211vh;
 }
