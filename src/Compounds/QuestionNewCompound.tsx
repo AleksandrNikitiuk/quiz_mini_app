@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import QuestionSectionWrapper from '../Components/QuestionNew/QuestionSectionWrapper'
 import QuestionText from '../Components/QuestionNew/QuestionText'
+import WebApp from '@twa-dev/sdk'
 
 import QuestionsData from '../Data/question_new.json'
 import { MainContext } from '../Context/MainContext'
@@ -19,7 +20,7 @@ export default function QuestionNewCompound() {
                 <QuestionWords
                 key={index}
                 className={
-                    word  === 'answer' ? answerResult === ''? 'spacer': 'answer-in-question': 'text'
+                    word  === 'answer' ? answerResult === ''? WebApp.colorScheme === 'light'? 'spacer': 'spacer-dark': 'answer-in-question': 'text'
                 }
                 >
                 {word  === 'answer'?  answerResult ===''? word : answerResult.toLowerCase() : word}
