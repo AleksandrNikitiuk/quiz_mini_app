@@ -17,13 +17,13 @@
     flex-shrink: 0;
 }
 
-.title-text {
+.title-text,
+.title-text-dark {
     display: inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0vh 2.3vh;
-
     color: #000;
     text-align: center;
     font-size: 6.1vh;
@@ -34,22 +34,11 @@
 }
 
 .title-text-dark {
-    display: inline-block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0vh 2.3vh;
-
     color: #fff;
-    text-align: center;
-    font-size: 6.1vh;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.145vh;
 }
 
-.word {
+.word,
+.word-dark {
     display: inline-block;
     color: #000;
     text-align: center;
@@ -60,6 +49,10 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.145vh;
+}
+
+.word-dark {
+    color: #fff;
 }
 
 .hand-drawing {
@@ -76,17 +69,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.word-dark {
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-    margin-right: 5px;
-
-    font-size: 6.1vh;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.145vh;
 }

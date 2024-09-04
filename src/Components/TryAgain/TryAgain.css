@@ -1,21 +1,14 @@
-.try-again-section-wrapper {
+.text-wrapper {
   display: flex;
-  height: 20vh;
-  padding: 2.25rem 1rem 0rem 1rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-and-button-wrapper {
-  display: flex;
-  width: 100%;
+  height: 16.572vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  padding: 0vh 2.3vh;
 }
 
-.button-preview {
+.button-preview,
+.button-preview-dark {
   display: inline-block;
   justify-content: left; 
   color: var(--bttn-answer-typo, #000);
@@ -23,26 +16,25 @@
   white-space: pre-wrap;
 
   /* button previev */
-  font-size: 1.125rem;
+  font-size: 2.6vh;
   font-style: normal;
   font-weight: 510;
   line-height: normal;
-  letter-spacing: -0.0375rem;
+  letter-spacing: -0.087vh;
 }
 
 .button-preview-dark {
-  display: inline-block;
-  justify-content: left; 
   color: var(--bttn-answer-typo, #fff);
-  text-align: center;
-  white-space: pre-wrap;
+}
 
-  /* button previev */
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 510;
-  line-height: normal;
-  letter-spacing: -0.0375rem;
+
+.button-wrapper {
+  display: flex;
+  height: 2.326vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0vh 2.3vh;
 }
 
 .try-again-button-wrapper {
@@ -79,27 +71,9 @@
   text-align: center;
 
   /* button previev */
-  font-size: 1.125rem;
+  font-size: 2.6vh;
   font-style: normal;
   font-weight: 510;
   line-height: normal;
-  letter-spacing: -0.0375rem;
-}
-
-.text-wrapper {
-  display: flex;
-  height: 16.572vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0vh 2.3vh;
-}
-
-.button-wrapper {
-  display: flex;
-  height: 2.326vh;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0vh 2.3vh;
+  letter-spacing: -0.087vh;
 }
