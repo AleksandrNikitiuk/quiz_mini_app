@@ -11,7 +11,8 @@
 .answer-button,
 .answer-button-dark,
 .green-button,
-.red-button {
+.red-button,
+.red-button-dark {
   display: flex;
   padding: 1.89vh 8.28vh;
   justify-content: center;
