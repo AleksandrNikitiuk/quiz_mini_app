@@ -40,9 +40,13 @@
   color: white;
 }
 
-.red-button {
+.red-button, .red-button-dark {
   border: 2px solid #FB0049;
   color: #FB0049;
+}
+
+.red-button-dark {
+  background: var(--bttn-answer-bttn_color, #212121);
 }
 
 .next-question-button-wrapper {
