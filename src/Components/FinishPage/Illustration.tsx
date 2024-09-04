@@ -14,8 +14,8 @@ export default function Illustration() {
   return (
     <div className='finish-illustration'>
       {correctAnswersNumber + wrongAnswersNumber === correctAnswersNumber
-        ? <img src={WebApp.colorScheme === 'light'? stars: stars_dark } alt="Stars" preload="auto" />
-        : <img src={WebApp.colorScheme === 'light'? accent: accent_dark } alt="Accent" preload="auto" />
+        ? <img src={WebApp.colorScheme === 'light'? stars: stars_dark } alt="Stars" />
+        : <img src={WebApp.colorScheme === 'light'? accent: accent_dark } alt="Accent" />
       }
     </div>
   )
