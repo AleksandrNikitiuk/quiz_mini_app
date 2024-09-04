@@ -9,6 +9,7 @@ import FinishMessage from '../Components/AnswerNew/FinishMessage'
 import FinishMessageOverlay from '../Components/AnswerNew/FinishMessageOverlay'
 import { MainContext } from '../Context/MainContext'
 import axios from 'axios'
+import WebApp from '@twa-dev/sdk'
 
 export default function AnswerCompound() {
   const {
@@ -99,7 +100,7 @@ export default function AnswerCompound() {
               disabled={answerResult !== ''}
               onClick={() => checkAnswer(answer)}
               className={
-                finalResult === '' ? 'answer-button' : changeButtonColor(answer)
+                finalResult === '' ? WebApp.colorScheme === 'light'? 'answer-button': 'answer-button-dark' : changeButtonColor(answer)
               }
             >
               {decodeURIComponent(answer)}
@@ -112,7 +113,7 @@ export default function AnswerCompound() {
                 disabled={answerResult === ''}
                 onClick={doButtonClickActions}
                 className={
-                    answerResult === '' ? 'inactive-next-question-button' : 'next-question-button'
+                    answerResult === '' ? WebApp.colorScheme === 'light'? 'inactive-next-question-button': 'inactive-next-question-button-dark' : 'next-question-button'
                     }
             >
                 Next

@@ -32,13 +32,18 @@
   letter-spacing: -0.07vh;
 }
 
-.spacer {
+.spacer, .spacer-dark {
   width: auto;
   font-size: 3vh;
   line-height: 4.2vh;
   border-radius: 1.74vh;
   background-color: #F5F5F5;
   color: #F5F5F5;
+}
+
+.spacer-dark {
+  background-color: var(--bttn-answer-bttn_color, #212121);
+  color: var(--bttn-answer-bttn_color, #212121);
 }
 
 .answer-in-question {
