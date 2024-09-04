@@ -6,5 +6,5 @@ interface PropsType {
 }
 
 export default function TryAgainButtonWrapper({ children }: PropsType) {
-  return <div className='start_test-button-wrapper'>{children}</div>
+  return <div className='try-again-button-wrapper'>{children}</div>
 }
