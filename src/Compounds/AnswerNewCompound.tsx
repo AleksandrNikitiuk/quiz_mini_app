@@ -54,7 +54,7 @@ export default function AnswerCompound() {
     if (answer === wrongClickedAnswer) {
       return 'red-button'
     } else {
-      return 'answer-button'
+      return WebApp.colorScheme === 'light'? 'answer-button': 'answer-button-dark'
     }
   }
 

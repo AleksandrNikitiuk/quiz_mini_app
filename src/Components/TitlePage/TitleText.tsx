@@ -9,7 +9,7 @@ interface PropsType {
 export default function TitleText({ children }: PropsType) {
   return (
     <div className={WebApp.colorScheme === 'light'? 'title-text': 'title-text-dark'}>
-      <div className="word">Test:</div> <br/>
+      <div className={WebApp.colorScheme === 'light'? 'word': 'word-dark'}>Test:</div> <br/>
       {children}
     </div>
   )
