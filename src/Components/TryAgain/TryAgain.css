@@ -1,10 +1,10 @@
 .text-wrapper {
   display: flex;
-  height: 16.572vh;
+  height: 15.79vh;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 0vh 2.3vh;
+  padding: 0vh 2.19vh;
 }
 
 .button-preview,
@@ -14,14 +14,14 @@
   color: var(--bttn-answer-typo, #000);
   text-align: center;
   white-space: pre-wrap;
-  padding-bottom: 2vh;
+  padding-bottom: 1.9vh;
 
   /* button previev */
-  font-size: 2.6vh;
+  font-size: 2.478vh;
   font-style: normal;
   font-weight: 510;
   line-height: normal;
-  letter-spacing: -0.087vh;
+  letter-spacing: -0.083vh;
 }
 
 .button-preview-dark {
@@ -31,11 +31,11 @@
 
 .button-wrapper {
   display: flex;
-  height: 2.326vh;
+  height: 2.216vh;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 0vh 2.3vh;
+  padding: 0vh 2.19vh;
 }
 
 .try-again-button-wrapper {
@@ -43,27 +43,27 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  gap: 4.65vh;
+  gap: 4.43vh;
   align-self: stretch;
 }
 
 .try-again-button {
   display: flex;
-  padding: 1.89vh 8.28vh;
+  padding: 1.8vh 7.89vh;
   justify-content: center;
   align-items: center;
-  gap: 1.45vh;
+  gap: 1.38vh;
   align-self: stretch;
   border: none;
-  border-radius: 1.45vh;
+  border-radius: 1.38vh;
   background: #007AFF;
   color: #fff;
   text-align: center;
-  font-size: 3.198vh;
+  font-size: 3vh;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.03211vh;
+  letter-spacing: -0.0306vh;
 }
 
 .message {
@@ -72,9 +72,9 @@
   text-align: center;
 
   /* button previev */
-  font-size: 2.6vh;
+  font-size: 2.478vh;
   font-style: normal;
   font-weight: 510;
   line-height: normal;
-  letter-spacing: -0.087vh;
+  letter-spacing: -0.083vh;
 }
