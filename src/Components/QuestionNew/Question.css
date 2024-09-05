@@ -1,12 +1,12 @@
 .question-section-wrapper {
   display: flex;
-  height: 19.7vh;
-  padding: 4.65vh 1.7vh;
+  height: 18.77vh;
+  padding: 4.43vh 1.62vh;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   text-align: center;
-  gap: 1.45vh;
+  gap: 1.38vh;
   flex-shrink: 0;
 }
 
@@ -25,18 +25,18 @@
 .text, .answer-in-question, .spacer, .spacer-dark {
   display: inline-block;
   margin-right: 5px;
-  font-size: 4vh;
+  font-size: 3.81vh;
   font-style: normal;
   font-weight: 400;
-  line-height: 4.65vh; /* 114.286% */
-  letter-spacing: -0.07vh;
+  line-height: 4.43vh; /* 114.286% */
+  letter-spacing: -0.0667vh;
 }
 
 .spacer, .spacer-dark {
   width: auto;
-  font-size: 3vh;
-  line-height: 4vh;
-  border-radius: 1.74vh;
+  font-size: 2.859vh;
+  line-height: 3.81vh;
+  border-radius: 1.659vh;
   background-color: #F5F5F5;
   color: #F5F5F5;
 }
