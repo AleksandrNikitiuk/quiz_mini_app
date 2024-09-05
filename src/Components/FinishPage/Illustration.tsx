@@ -1,6 +1,5 @@
 import { useContext } from 'react'
 import './FinishPage.css'
-import accent from '/accent.svg'
 import accent_dark from '/accent-dark.svg'
 import stars from '/stars.svg'
 import stars_dark from '/stars-dark.svg'
