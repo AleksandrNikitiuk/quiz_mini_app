@@ -12,7 +12,6 @@ import { MainContext } from '../Context/MainContext'
 export default function ProgressBarNewCompound() {
   const { currentQuestion, showAnswerResult } = useContext(MainContext)
   const totalQuestions = QuestionsData.length
-  const widthPercentage = ((currentQuestion) / totalQuestions) * 100
 
   return (
     <>
@@ -26,7 +25,9 @@ export default function ProgressBarNewCompound() {
         </ProgressBarMessage>
         <ProgressBarAndDataWrapper>
           <ProgressBarWrapper>
-              <ProgressBar style={{ width: `${widthPercentage}%` }} />
+              <ProgressBar style={showAnswerResult === ''
+                ? { width: `${((currentQuestion - 1) / totalQuestions) * 100}%` }
+                : { width: `${((currentQuestion) / totalQuestions) * 100}%` }} />
           </ProgressBarWrapper>
           <ProgressBarData>
             {currentQuestion}/{totalQuestions}
