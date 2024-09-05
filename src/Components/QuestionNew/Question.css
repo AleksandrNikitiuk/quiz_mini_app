@@ -35,6 +35,7 @@
 .spacer, .spacer-dark {
   width: auto;
   font-size: 3vh;
+  line-height: 4vh;
   border-radius: 1.74vh;
   background-color: #F5F5F5;
   color: #F5F5F5;
