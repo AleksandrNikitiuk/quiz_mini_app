@@ -30,7 +30,7 @@ export default function ProgressBarNewCompound() {
                 : { width: `${((currentQuestion) / totalQuestions) * 100}%` }} />
           </ProgressBarWrapper>
           <ProgressBarData>
-            {currentQuestion}/{totalQuestions}
+            {showAnswerResult === ''? currentQuestion - 1: currentQuestion}/{totalQuestions}
           </ProgressBarData>
         </ProgressBarAndDataWrapper>
       </ProgressSectionWrapper>
