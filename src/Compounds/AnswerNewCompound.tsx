@@ -116,7 +116,7 @@ export default function AnswerCompound() {
                     answerResult === '' ? WebApp.colorScheme === 'light'? 'inactive-next-question-button': 'inactive-next-question-button-dark' : 'next-question-button'
                     }
             >
-                Next
+                {currentQuestion !== 10? 'Next': answerResult === ''? 'Next': 'Results'}
             </NextQuestionButton>
         </NextQuestionButtonWrapper>
       {/*</AnswerSectionWrapper>*/}
