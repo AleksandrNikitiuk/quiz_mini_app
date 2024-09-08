@@ -81,12 +81,12 @@
 .inactive-next-question-button,
 .inactive-next-question-button-dark {
   display: flex;
-  padding: 1.8vh 7.89vh;
+  padding: 1.2vh 7.89vh;
   justify-content: center;
   align-items: center;
   gap: 1.38vh;
   align-self: stretch;
-  border: none;
+  border: 0.3vh solid #FCFCFC;
   border-radius: 1.38vh;
   background: #FCFCFC;
   color: #B7B7B7;
@@ -99,6 +99,7 @@
 }
 
 .inactive-next-question-button-dark {
+  border-color: #FFF;
   background: var(--bttn-answer-bttn_color, #212121);
   color: var(--bttn-answer-typo, #FFF);
 }
