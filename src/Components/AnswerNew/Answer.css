@@ -32,11 +32,13 @@
 }
 
 .answer-button-dark {
+  border-color: #212121;
   background: var(--bttn-answer-bttn_color, #212121);
   color: var(--bttn-answer-typo, #FFF);
 }
 
 .green-button {
+  border-color: #00C75E;
   background-color: #00C75E;
   color: white;
 }
