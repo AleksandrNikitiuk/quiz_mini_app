@@ -101,7 +101,7 @@
 }
 
 .inactive-next-question-button-dark {
-  border-color: #FFF;
+  border-color: #212121;
   background: var(--bttn-answer-bttn_color, #212121);
   color: var(--bttn-answer-typo, #FFF);
 }
