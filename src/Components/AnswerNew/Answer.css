@@ -14,12 +14,12 @@
 .red-button,
 .red-button-dark {
   display: flex;
-  padding: 1.8vh 7.89vh;
+  padding: 1.2vh 7.89vh;
   justify-content: center;
   align-items: center;
   gap: 1.38vh;
   align-self: stretch;
-  border: 2px solid #F5F5F5;
+  border: 0.3vh solid #F5F5F5;
   border-radius: 1.38vh;
   background: #F5F5F5;
   color: #000;
@@ -42,7 +42,7 @@
 }
 
 .red-button, .red-button-dark {
-  border: 2px solid #FB0049;
+  border: 0.3vh solid #FB0049;
   color: #FB0049;
 }
 
@@ -61,12 +61,12 @@
 
 .next-question-button {
   display: flex;
-  padding: 1.8vh 7.89vh;
+  padding: 1.2vh 7.89vh;
   justify-content: center;
   align-items: center;
   gap: 1.38vh;
   align-self: stretch;
-  border: none;
+  border: 0.3vh solid #007AFF;
   border-radius: 1.38vh;
   background: #007AFF;
   color: #fff;
