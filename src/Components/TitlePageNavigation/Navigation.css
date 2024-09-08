@@ -17,6 +17,7 @@
 }
 
 .button-preview-navigation-dark {
+  border-color: var(--bttn-answer-typo, #fff);
   color: var(--bttn-answer-typo, #fff);
 }
 
