@@ -15,7 +15,7 @@ export default function TryAgainCompound() {
   function doButtonClickActions(isAllAnswersCorrect: boolean) {
     isAllAnswersCorrect
       ? window.location.href = 'https://aleksandrnikitiuk.github.io/quiz_mini_app/'
-      :window.location.href = 'https://t.me/homeoflanguages_perm/75';
+      : window.open('https://t.me/share/url?url=https://t.me/homeoflanguagesbot&text=My%20result%20is%2010%20out%20of%2010!', '_blank')
   }
 
   return (
