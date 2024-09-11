@@ -12,10 +12,12 @@ export default function TryAgainCompound() {
   const {correctAnswersNumber} = useContext(MainContext)
   const finishWords = FinishMessages[correctAnswersNumber === 0? 0: correctAnswersNumber - 1].message
 
-  function doButtonClickActions(isAllAnswersCorrect: boolean) {
-    isAllAnswersCorrect
+  function doButtonClickActions(correctAnswersNumber: number) {
+    correctAnswersNumber < 6
       ? window.location.href = 'https://aleksandrnikitiuk.github.io/quiz_mini_app/'
-      : window.open('https://t.me/share/url?url=https://t.me/homeoflanguagesbot&text=My%20result%20is%2010%20out%20of%2010!', '_blank')
+      : correctAnswersNumber !== 10
+      ? window.open(`https://t.me/share/url?url=https://t.me/homeoflanguagesbot&text=My%20result%20is%20${correctAnswersNumber}%20out%20of%2010!%20Try%20to%20score%20more!`, '_blank')
+      : window.open(`https://t.me/share/url?url=https://t.me/homeoflanguagesbot&text=My%20result%20is%20${correctAnswersNumber}%20out%20of%2010!%20Try%20to%20get%20a%20better%20result!`, '_blank')
   }
 
   return (
@@ -41,10 +43,10 @@ export default function TryAgainCompound() {
             
             <TryAgainButtonWrapper>
                 <TryAgainButton
-                    onClick={ () => doButtonClickActions(correctAnswersNumber !== 10) }
+                    onClick={ () => doButtonClickActions(correctAnswersNumber) }
                     className={'try-again-button'}
                 >
-                    {correctAnswersNumber !== 10
+                    {correctAnswersNumber < 6
                       ? 'Try again'
                       : 'Share'}
                 </TryAgainButton>
