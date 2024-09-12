@@ -20,10 +20,10 @@ export default function QuestionNewCompound() {
                 <QuestionWords
                 key={index}
                 className={
-                    word  === 'answer' ? answerResult === ''? WebApp.colorScheme === 'light'? 'spacer': 'spacer-dark': 'answer-in-question': 'text'
+                    word  === 'answer' || word === 'Answer'  ? answerResult === ''? WebApp.colorScheme === 'light'? 'spacer': 'spacer-dark': 'answer-in-question': 'text'
                 }
                 >
-                {word  === 'answer'?  answerResult ===''? word : answerResult.toLowerCase() : word}
+                {word  === 'answer' || word === 'Answer'?  answerResult ===''? word : word  === 'answer'? answerResult.toLowerCase(): answerResult : word}
                 </QuestionWords>
             ))}
         </QuestionText>
