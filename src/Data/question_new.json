@@ -1,206 +1,178 @@
 [
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "To",
-        "be",
-        "keen",
-        "on:"
-      ],
+      "question": 
+        ["Смотри", "на", "те", "джинсы", "вон", "там!", "Какие", "классные!"],
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "Любить что-то",
+      "correct_answer": "Those",
       "answers": [
-        "Любить что-то", 
-        "Ненавидеть что-то", 
-        "Не иметь ничего против чего-то"
+        "This",
+        "These",
+        "That",
+        "Those"
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "To",
-        "like:"
-      ],
+      "question": 
+        ["-Не могу найти свою ручку.", 
+        "-Эту? Держи!"
+        ]
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "Любить что-то",
+      "correct_answer": "This",
       "answers": [
-        "Любить что-то", 
-        "Ненавидеть что-то", 
-        "Не иметь ничего против чего-то"
+        "This",
+        "These",
+        "That",
+        "Those"
+
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "To",
-        "hate:"
-      ],
+      "question": 
+        ["Дай", "мне,", "пожалуйста,", "вон тот крем."]
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "Ненавидеть что-то",
+      "correct_answer": "That",
       "answers": [
-        "Любить что-то", 
-        "Ненавидеть что-то", 
-        "Не иметь ничего против чего-то"
+        "This",
+        "These",
+        "That",
+        "Those"
+
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "Not",
-        "to",
-        "mind:"
-      ],
+      "question": 
+        ["Я", "обожаю", "свой", "новый", "набор", "стаканов.", "Посмотри!", "Эти стаканы", "просто", "находка!"]
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "Не иметь ничего против чего-то",
+      "correct_answer": "These",
       "answers": [
-        "Любить что-то", 
-        "Ненавидеть что-то", 
-        "Не иметь ничего против чего-то"
+        "This",
+        "These",
+        "That",
+        "Those"
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "Оттенок",
-        "какого",
-        "глагола",
-        "показывает",
-        "бо́льшую",
-        "любовь?"
-      ],
+      "question": 
+        ["Yesterday", "I", "printed", "out", "some", "documents", "for", "you", "and put", "them", "on the table.", "Can", "you", "see", "them", "over there?", "Answer", "are", "very", "important.", "Don't", "lose", "them."] 
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "To be keen on",
+      "correct_answer": "Those",
       "answers": [
-        "To like", 
-        "To love",
-        "To be keen on" 
+        "This",
+        "These",
+        "That",
+        "Those"
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "Оттенок",
-        "какого",
-        "глагола",
-        "показывает",
-        "бо́льшую",
-        "не любовь?"
-      ],
+      "question": 
+        ["Could", "you", "please", "pass", "me answer", "fork", "next", "to you?", "I can’t", "get", "it", "myself."]
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "To hate",
+      "correct_answer": "That",
       "answers": [
-        "To hate", 
-        "To dislike",
-        "Can't stand" 
+        "This",
+        "These",
+        "That",
+        "Those"
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "I",
-        "don't",
-        "mind",
-        "answer",
-        "time",
-        "with",
-        "my",
-        "aunt."
-      ],
+      "question": 
+        ["Oh,", "let", "me", "touch", "the dress!…", "Just", "take", "a look", "at answer!", "It’s amazing!", "I’m", "going", "to the fitting", "room", "right", "now…"]
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "Spending",
+      "correct_answer": "This",
       "answers": [
-        "Spend",
-        "To spend", 
-        "Spending",
-        "Spent" 
+        "This",
+        "These",
+        "That",
+        "Those"
+ 
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "I",
-        "prefer",
-        "answer",
-        "in",
-        "defence."
-      ],
+      "question": 
+        ["Answer", "children", "are", "too", "active", "and loud.", "It’s", "great", "we’re", "sitting", "far", "from them."]
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "Playing",
+      "correct_answer": "Those",
       "answers": [  
-        "Play",
-        "To play", 
-        "Playing", 
-        "Played"
+        "This",
+        "These",
+        "That",
+        "Those"
+
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "We",
-        "enjoy",
-        "answer",
-        "in",
-        "Russia."
-      ],
+      "question": 
+        ["Oh,", "honey.", "Look", "at answer", "toy", "in my hands!", "It’s", "broken.", "I’m so sorry."]
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "Travelling",
+      "correct_answer": "This",
       "answers": [
-        "Travel",
-        "To travel",
-        "Travelling", 
-        "Travelled"
+        "This",
+        "These",
+        "That",
+        "Those"
+
       ]
     },
     {
-      "category": ["verbs", "of", "preference"],
+      "category": ["Demonstrative", "pronouns"],
       "type": "multiple",
       "difficulty": "easy-peasy",
-      "question": [
-        "My",
-        "dad",
-        "really",
-        "loves",
-        "answer",
-        "basketball",
-        "matches",
-        "on",
-        "TV."
-      ],
+      "question": 
+        ["Do", "you", "remember", "answer", "days", "when", "we", "were", "young", "and just", "met", "each", "other?"]
+      ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
-      "correct_answer": "Watching",
+      "correct_answer": "Those",
       "answers": [
-        "Watch",
-        "To watch", 
-        "Watching", 
-        "Watched"
+        "This",
+        "These",
+        "That",
+        "Those"
       ]
     }
   ]
