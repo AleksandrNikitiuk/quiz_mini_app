@@ -92,7 +92,7 @@
       "type": "multiple",
       "difficulty": "easy-peasy",
       "question": 
-        ["Could", "you", "please", "pass", "me answer", "fork", "next", "to you?", "I can’t", "get", "it", "myself."]
+        ["Could", "you", "please", "pass", "me", "answer", "fork", "next", "to you?", "I can’t", "get", "it", "myself."]
       ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
@@ -109,7 +109,7 @@
       "type": "multiple",
       "difficulty": "easy-peasy",
       "question": 
-        ["Oh,", "let", "me", "touch", "the dress!…", "Just", "take", "a look", "at answer!", "It’s amazing!", "I’m", "going", "to the fitting", "room", "right", "now…"]
+        ["Oh,", "let", "me", "touch", "the dress!…", "Just", "take", "a look", "at", "answer", "!", "It’s amazing!", "I’m", "going", "to the fitting", "room", "right", "now…"]
       ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
@@ -145,7 +145,7 @@
       "type": "multiple",
       "difficulty": "easy-peasy",
       "question": 
-        ["Oh,", "honey.", "Look", "at answer", "toy", "in my hands!", "It’s", "broken.", "I’m so sorry."]
+        ["Oh,", "honey.", "Look", "at", "answer", "toy", "in my hands!", "It’s", "broken.", "I’m so sorry."]
       ,
       "first_part_text": "Hello, my ",
       "end_part_text": "go to New York this autumn to New York this autumn to New York this autumn.",
