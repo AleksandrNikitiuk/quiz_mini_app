@@ -3,7 +3,7 @@ import QuestionSectionWrapper from '../Components/QuestionNew/QuestionSectionWra
 import QuestionText from '../Components/QuestionNew/QuestionText'
 import WebApp from '@twa-dev/sdk'
 
-import QuestionsData from '../Data/question_new.json'
+import QuestionsData from '../Data/questions.json'
 import { MainContext } from '../Context/MainContext'
 import QuestionWords from '../Components/QuestionNew/QuestionWords'
 

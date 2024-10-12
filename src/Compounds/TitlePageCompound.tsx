@@ -5,14 +5,16 @@ import TitleText from '../Components/TitlePage/TitleText'
 import TitleWords from '../Components/TitlePage/TitleWords'
 import HandDrawing from '../Components/TitlePage/HandDrawing'
 import HandDrawingIllustration from '../Components/TitlePage/HandDrawingIllustration.tsx'
-import QuestionsData from '../Data/question_new.json'
-import { MainContext } from '../Context/MainContext'
+//import QuestionsData from '../Data/question_new.json'
+import TestData from '../Data/test_data.json'
+//import { MainContext } from '../Context/MainContext'
 import WebApp from '@twa-dev/sdk'
 
 
 export default function QuestionNewCompound() {
-    const { currentQuestion } = useContext(MainContext)
-    const titleWords = QuestionsData[currentQuestion - 1].category
+    //const { currentQuestion } = useContext(MainContext)
+    //const titleWords = QuestionsData[currentQuestion - 1].category
+    const titleWords = TestData
 
     return (
     <>

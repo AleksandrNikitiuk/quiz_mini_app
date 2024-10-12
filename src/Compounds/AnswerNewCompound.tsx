@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react'
-import QuestionsData from '../Data/question_new.json'
+import QuestionsData from '../Data/questions.json'
 import AnswerButton from '../Components/AnswerNew/AnswerButton'
 import AnswerButtonsWrapper from '../Components/AnswerNew/AnswerButtonsWrapper'
 {/*import AnswerSectionWrapper from '../Components/AnswerNew/AnswerSectionWrapper'*/}
