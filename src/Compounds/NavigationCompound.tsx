@@ -1,5 +1,6 @@
 import { useContext } from 'react'
-import QuestionsData from '../Data/question_new.json'
+//import QuestionsData from '../Data/question_new.json'
+import QuestionsData from '../Data/test_level.json'
 {/*import NavigationSectionWrapper from '../Components/TitlePageNavigation/NavigationSectionWrapper'
 import TextAndButtonWrapper from '../Components/TitlePageNavigation/TextAndButtonWrapper'*/}
 import TextWrapper from '../Components/TitlePageNavigation/TextWrapper'
@@ -12,7 +13,8 @@ import { MainContext } from '../Context/MainContext'
 
 export default function NavigationCompound() {
   const { setHelloPage } = useContext(MainContext)
-  const difficulty = QuestionsData[0].difficulty
+  //const difficulty = QuestionsData[0].difficulty
+  const difficulty = QuestionsData
 
   function doButtonClickActions() {
     setHelloPage!(false)
