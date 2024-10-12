@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+
 import TitlePageSectionWrapper from '../Components/TitlePage/TitlePageSectionWrapper'
 import Illustration from '../Components/TitlePage/Illustration'
 import TitleText from '../Components/TitlePage/TitleText'
