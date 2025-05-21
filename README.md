@@ -1,50 +1,116 @@
-# React + TypeScript + Vite
+# Quiz Mini App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Telegram](https://img.shields.io/badge/-Telegram-0088cc?style=flat-square&logo=telegram&logoColor=white)
 
-Currently, two official plugins are available:
+Quiz Mini App — это интерактивное мини-приложение для Telegram, разработанное с использованием Telegram Web Apps API. Приложение представляет собой викторину, которая позволяет пользователям проходить квиз с вопросами, получать баллы за правильные ответы и делиться результатами. Проект создан для демонстрации возможностей Telegram Web Apps и может быть использован как основа для разработки подобных приложений.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Особенности
 
-## Expanding the ESLint configuration
+- **Интерактивная викторина**: Пользователи отвечают на вопросы с несколькими вариантами ответов.
+- **Система подсчёта баллов**: За каждый правильный ответ начисляется 1 балл.
+- **Адаптивный интерфейс**: Приложение оптимизировано для использования в Telegram на разных устройствах.
+- **Интеграция с Telegram**: Использует Telegram Web Apps для взаимодействия с пользователем и отображения результата.
+- **Простая структура**: Лёгкий для понимания код, подходящий для изучения и модификации.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Технологии
 
-- Configure the top-level `parserOptions` property like this:
+- **JavaScript**: Основной язык программирования.
+- **HTML/CSS**: Для создания интерфейса и стилизации.
+- **Telegram Web Apps API**: Для интеграции с Telegram.
+- **JSON**: Для хранения вопросов и ответов.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
+## Установка и запуск
+
+### Предварительные требования
+- Установленный Telegram на устройстве.
+- Доступ к Telegram Bot API (для настройки бота и получения токена).
+- Локальный сервер или хостинг для размещения приложения (например, Vercel, Netlify или локально с использованием Node.js).
+
+### Инструкции по установке
+
+1. Клонируйте репозиторий:
+
+   git clone https://github.com/AleksandrNikitiuk/quiz_mini_app.git
+   cd quiz_mini_app
+2. Установите зависимости:
+Проект не использует внешние зависимости, так как является чистым JavaScript-приложением. Убедитесь, что у вас есть среда для запуска статических файлов (например, через локальный сервер).
+
+3. Настройте Telegram Bot:
+- Создайте бота через [BotFather](https://t.me/BotFather) в Telegram и получите токен.
+- Включите поддержку Web Apps в настройках бота через BotFather (команда `/setinline` или `/setwebapp`).
+
+4. Разместите приложение:
+- Разместите файлы проекта на веб-сервере или платформе хостинга (например, Vercel или Netlify).
+- Укажите URL вашего приложения в настройках бота через BotFather (команда `/setwebapp`).
+
+5. Запустите приложение:
+- Откройте бота в Telegram и начните взаимодействие с мини-приложением через кнопку или команду.
+
+### Локальный запуск
+Для локального тестирования:
+1. Установите локальный сервер, например, с помощью Node.js:
+
+   npm install -g http-server
+   http-server .
+2. Откройте браузер и перейдите по адресу `http://localhost:8080`.
+3. Для тестирования в Telegram настройте туннелирование (например, с помощью [ngrok](https://ngrok.com/)) для доступа к локальному серверу:
+
+   ngrok http 8080
+4. Укажите URL от ngrok в настройках бота.
+
+## Структура проекта
+quiz_mini_app/
+├── index.html       # Основной HTML-файл
+├── script.js        # Логика викторины и взаимодействие с Telegram Web Apps
+├── style.css        # Стили для интерфейса
+├── questions.json   # Файл с вопросами и ответами
+└── README.md        # Документация проекта
+- **index.html**: Содержит структуру интерфейса викторины.
+- **script.js**: Реализует логику викторины, обработку ответов и взаимодействие с Telegram API.
+- **style.css**: Определяет внешний вид приложения.
+- **questions.json**: Хранит вопросы и варианты ответов в формате JSON.
+
+## Использование
+
+1. Запустите бота в Telegram.
+2. Нажмите на кнопку "Start Quiz" или аналогичную (в зависимости от реализации).
+3. Отвечайте на вопросы, выбирая один из предложенных вариантов.
+4. По завершении викторины вы увидите свой результат и сможете поделиться им через Telegram.
+5. Нажмите "Restart" для повторного прохождения.
+
+## Формат вопросов
+
+Вопросы хранятся в файле `questions.json` в следующем формате:
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "London", "Berlin", "Madrid"],
+    "correct": 0
   },
-})
-```
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correct": 1
+  }
+]
+- **question**: Текст вопроса.
+- **options**: Массив вариантов ответа.
+- **correct**: Индекс правильного ответа в массиве `options`.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Контрибьютинг
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Форкните репозиторий.
+2. Создайте новую ветку (`git checkout -b feature/your-feature`).
+3. Внесите изменения и закоммитьте их (`git commit -m "Add your feature"`).
+4. Запушьте изменения в ветку (`git push origin feature/your-feature`).
+5. Создайте Pull Request.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Лицензия
+
+Проект распространяется под лицензией [MIT](LICENSE).
+
+## Автор
+
+- **Aleksandr Nikitiuk** ([GitHub](https://github.com/AleksandrNikitiuk))
+
